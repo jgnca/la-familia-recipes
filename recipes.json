@@ -1,0 +1,198 @@
+[
+  {
+    "id": "boiled-chicken-breasts",
+    "addedAt": "2026-11-08T06:40:00Z",
+    "description": "Juicy, tender poached chicken breasts for shredding, slicing, salads and meal prep.",
+    "ingredients": [
+      {
+        "amount": 4,
+        "name": "boneless skinless chicken breasts (about 2 lb)"
+      },
+      {
+        "amount": 8,
+        "name": "cold water or low-sodium chicken broth",
+        "unit": "cup"
+      },
+      {
+        "amount": 1,
+        "name": "kosher salt",
+        "unit": "tbsp"
+      },
+      {
+        "amount": 2,
+        "name": "bay leaves"
+      },
+      {
+        "amount": 3,
+        "name": "garlic cloves, smashed"
+      },
+      {
+        "amount": 1,
+        "name": "whole black peppercorns",
+        "unit": "tsp"
+      },
+      {
+        "amount": 0.5,
+        "name": "onion, quartered (optional)"
+      }
+    ],
+    "notes": "A gentle simmer is the key to tender chicken; a hard boil tightens the meat and makes it rubbery.\nFrozen breasts work too: add about 50% more simmering time and check the temperature.\nStrain and save the cooking liquid as a light stock for soups or rice.\nKeeps 3–4 days in the fridge; store shredded chicken with a splash of the broth to stay moist.",
+    "servings": 4,
+    "servingsLabel": "breasts",
+    "source": {
+      "label": "Cooking question in the Recipes chat",
+      "type": "question"
+    },
+    "steps": [
+      {
+        "minutes": 2,
+        "text": "Lay {0} in a single layer in a large pot. Add {1} so the chicken is covered by about an inch, then add {2}, {3}, {4}, {5} and {6}.",
+        "title": "Set up the pot"
+      },
+      {
+        "minutes": 8,
+        "text": "Bring to a boil over medium-high heat, uncovered. Skim off any foam that rises.",
+        "title": "Bring to a boil"
+      },
+      {
+        "minutes": 14,
+        "text": "Lower the heat to a gentle simmer (small bubbles, not a rolling boil), cover, and cook until the thickest part reads 165°F on an instant-read thermometer, about 12–15 minutes.",
+        "title": "Simmer gently"
+      },
+      {
+        "minutes": 5,
+        "text": "Move the chicken to a cutting board and rest 5 minutes before slicing or shredding with two forks.",
+        "title": "Rest"
+      }
+    ],
+    "tags": [
+      "chicken",
+      "meal prep",
+      "basics"
+    ],
+    "time": "About 25 min",
+    "title": "Boiled Chicken Breasts"
+  },
+  {
+    "id": "lentil-wild-rice-stuffed-artichoke-bottoms",
+    "addedAt": "2026-11-07T22:25:00-08:00",
+    "description": "Trader Joe's frozen artichoke bottoms filled with wild rice, lentils, garlicky kale and feta, broiled with Grana Padano.",
+    "ingredients": [
+      {
+        "amount": 6,
+        "name": "Trader Joe's frozen artichoke bottoms, thawed"
+      },
+      {
+        "amount": 0.5,
+        "name": "cooked wild rice, roughly chopped",
+        "unit": "cup"
+      },
+      {
+        "amount": 0.25,
+        "name": "cooked lentils",
+        "unit": "cup"
+      },
+      {
+        "amount": 1.5,
+        "name": "kale, finely chopped",
+        "unit": "cup"
+      },
+      {
+        "amount": 0.25,
+        "name": "crumbled feta",
+        "unit": "cup"
+      },
+      {
+        "amount": 2,
+        "name": "garlic cloves, minced (1–2)"
+      },
+      {
+        "amount": 1,
+        "name": "olive oil, for sautéing",
+        "unit": "tsp"
+      },
+      {
+        "amount": 0.5,
+        "name": "salt, to taste",
+        "unit": "tsp"
+      },
+      {
+        "amount": 0.25,
+        "name": "black pepper, to taste",
+        "unit": "tsp"
+      },
+      {
+        "amount": 2,
+        "name": "fresh lemon juice, plus more to finish",
+        "unit": "tsp"
+      },
+      {
+        "amount": 0.25,
+        "name": "garlic powder",
+        "unit": "tsp"
+      },
+      {
+        "amount": 1,
+        "name": "extra virgin olive oil, for filling and finishing",
+        "unit": "tbsp"
+      },
+      {
+        "amount": 0.25,
+        "name": "shredded Grana Padano, for topping",
+        "unit": "cup"
+      }
+    ],
+    "notes": "Wild rice replaces the quinoa one-for-one. About 3 tbsp dry wild rice yields roughly ½ cup cooked; precooked or frozen wild rice skips the first step.\nGarlic powder, extra virgin olive oil and the Grana Padano amount are estimates, since the original post didn't list them.",
+    "servings": 6,
+    "servingsLabel": "stuffed artichokes",
+    "source": {
+      "label": "Instagram post (adapted: wild rice instead of quinoa)",
+      "type": "instagram"
+    },
+    "steps": [
+      {
+        "minutes": 50,
+        "text": "If starting from dry, simmer the wild rice until tender and some grains split, then drain well. Roughly chop enough to make {1}.",
+        "title": "Cook wild rice"
+      },
+      {
+        "text": "Thaw the {0} and pat them dry.",
+        "title": "Prep artichokes"
+      },
+      {
+        "minutes": 4,
+        "text": "Heat {6} in a skillet and cook {3} with {5} until wilted.",
+        "title": "Sauté kale"
+      },
+      {
+        "text": "In a bowl, combine the wild rice, {2}, the sautéed kale and {4}. Season with {7}, {8}, {10}, a drizzle of the extra virgin olive oil and the lemon juice.",
+        "title": "Mix filling"
+      },
+      {
+        "text": "Set the artichoke bottoms cut-side up on a baking sheet and divide the filling evenly among them, pressing it down gently so it holds.",
+        "title": "Stuff"
+      },
+      {
+        "minutes": "20–25",
+        "text": "Bake at 400°F until the artichokes are tender and the filling is hot.",
+        "title": "Bake"
+      },
+      {
+        "minutes": 2,
+        "text": "Top each one generously with {12}, then broil until melted and golden.",
+        "title": "Broil with cheese"
+      },
+      {
+        "text": "Finish with a squeeze of lemon and a drizzle of extra virgin olive oil.",
+        "title": "Finish"
+      }
+    ],
+    "tags": [
+      "vegetarian",
+      "baked",
+      "appetizer"
+    ],
+    "time": "About 35 min, plus wild rice",
+    "title": "Lentil & Wild Rice Stuffed Artichoke Bottoms"
+  }
+]
