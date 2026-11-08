@@ -194,5 +194,154 @@
     ],
     "time": "About 35 min, plus wild rice",
     "title": "Lentil & Wild Rice Stuffed Artichoke Bottoms"
+  },
+  {
+    "id": "ginger-miso-brothy-soup-sesame-tofu",
+    "title": "Ginger Miso Brothy Soup with Crispy Sesame Tofu",
+    "description": "A savory ginger-miso broth with grated, oven-crisped sesame tofu over rice.",
+    "source": {
+      "type": "tiktok",
+      "label": "Catherine, MS, RD (TikTok and plantbasedrdblog.com)",
+      "url": "https://plantbasedrdblog.com/2024/11/ginger-miso-brothy-soup/"
+    },
+    "servings": 4,
+    "servingsLabel": "bowls",
+    "time": "About 40 min",
+    "tags": [
+      "soup",
+      "vegetarian",
+      "tofu"
+    ],
+    "addedAt": "2026-11-07T23:52:00-08:00",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "lb",
+        "name": "block super-firm tofu"
+      },
+      {
+        "amount": 1.5,
+        "unit": "tbsp",
+        "name": "tamari"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "name": "rice vinegar"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "name": "cornstarch or potato starch"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "name": "sesame seeds"
+      },
+      {
+        "amount": 1.5,
+        "unit": "tbsp",
+        "name": "avocado oil, for the tofu"
+      },
+      {
+        "amount": 2,
+        "unit": "tsp",
+        "name": "avocado oil, for the soup"
+      },
+      {
+        "amount": 0.5,
+        "name": "medium yellow onion, diced"
+      },
+      {
+        "amount": 4,
+        "name": "thin slices fresh ginger"
+      },
+      {
+        "amount": 5,
+        "name": "garlic cloves, thinly sliced"
+      },
+      {
+        "amount": 1,
+        "name": "Fresno pepper, thinly sliced"
+      },
+      {
+        "amount": 3,
+        "name": "scallions, thinly sliced, whites and greens kept separate"
+      },
+      {
+        "amount": 3,
+        "name": "dried shiitake mushrooms"
+      },
+      {
+        "amount": 4.5,
+        "unit": "cup",
+        "name": "hot water, divided (3½ + 1)"
+      },
+      {
+        "amount": 2.5,
+        "unit": "tbsp",
+        "name": "yellow miso paste (2–3)"
+      },
+      {
+        "amount": 2,
+        "unit": "tsp",
+        "name": "toasted sesame oil, plus more for serving"
+      },
+      {
+        "amount": 0.5,
+        "name": "lemon, zested and juiced"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "kosher salt, plus more to taste"
+      },
+      {
+        "amount": 2,
+        "unit": "cup",
+        "name": "cooked rice, for serving"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Make the crispy tofu",
+        "text": "Heat the oven to 425°F and line a baking sheet with parchment. Grate the {0} on the large holes of a box grater onto the sheet. Add {1}, {2}, {3} and {4}, drizzle with {5}, toss and spread in a single layer. Bake 15 minutes.",
+        "minutes": 15
+      },
+      {
+        "title": "Toss and finish the tofu",
+        "text": "Toss the tofu with tongs and bake until crisp, 5–8 minutes more.",
+        "minutes": "5–8"
+      },
+      {
+        "title": "Soften the onion",
+        "text": "Meanwhile, heat {6} in a large pot over medium-low. Add {7} and a pinch of the salt and cook until soft and golden.",
+        "minutes": 5
+      },
+      {
+        "title": "Add the aromatics",
+        "text": "Add {8}, {9}, {10} and the scallion whites. Cook until fragrant.",
+        "minutes": 2
+      },
+      {
+        "title": "Simmer the broth",
+        "text": "Add {12} and 3½ cups of the hot water. Bring to a boil, then simmer.",
+        "minutes": 15
+      },
+      {
+        "title": "Mix the miso",
+        "text": "While the broth simmers, whisk {14}, the remaining 1 cup water and {15} until smooth with no lumps."
+      },
+      {
+        "title": "Blend",
+        "text": "Remove the mushrooms and lower the heat. Stir in the miso mixture and the zest and juice of {16}. Blend smooth with an immersion blender, then stir in the scallion greens. Taste and add salt if needed."
+      },
+      {
+        "title": "Serve",
+        "text": "Put a scoop of {18} in each bowl, ladle the broth around it, top with the crispy tofu and drizzle with extra sesame oil."
+      }
+    ],
+    "notes": "The TikTok post listed only ingredients; the steps follow the creator's blog. The rice amount is an estimate.\nPotato starch works 1:1 in place of cornstarch for the tofu.\nNot a tofu fan? She suggests shredded oyster mushrooms and edamame instead."
   }
 ]
