@@ -343,5 +343,413 @@
       }
     ],
     "notes": "The TikTok post listed only ingredients; the steps follow the creator's blog. The rice amount is an estimate.\nPotato starch works 1:1 in place of cornstarch for the tofu.\nNot a tofu fan? She suggests shredded oyster mushrooms and edamame instead."
+  },
+  {
+    "id": "maple-miso-glazed-whole-roasted-salmon",
+    "title": "Maple-Miso Glazed Whole Roasted Salmon",
+    "description": "A whole side of salmon marinated and glazed with miso, maple, mirin and ginger, roasted hot for a holiday centerpiece.",
+    "source": {
+      "type": "web",
+      "label": "Adapted from Chowhound's Roasted Miso Maple Salmon (scaled up to a whole side)",
+      "url": "https://chowhound.com/1717218/roasted-miso-maple-salmon-recipe"
+    },
+    "servings": 8,
+    "servingsLabel": "servings",
+    "time": "About 1 hr (30 min marinating)",
+    "tags": [
+      "thanksgiving",
+      "fish"
+    ],
+    "addedAt": "2026-11-08T01:10:00-08:00",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "lb",
+        "name": "whole side of salmon, skin on, pin bones removed"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "name": "white miso paste"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "name": "maple syrup"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "name": "mirin"
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "name": "soy sauce"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "name": "toasted sesame oil"
+      },
+      {
+        "amount": 2,
+        "name": "garlic cloves, minced"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "name": "fresh ginger, finely chopped"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "name": "scallions, thinly sliced, for garnish"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "name": "fresh cilantro, chopped, for garnish"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Make the glaze",
+        "text": "Whisk {1}, {2}, {3}, {4}, {5}, {6} and {7} until smooth. Set aside 3 tablespoons in a small bowl for glazing later."
+      },
+      {
+        "title": "Marinate",
+        "text": "Lay {0} skin side down on a parchment-lined rimmed baking sheet and spread the rest of the glaze over the top. Refrigerate.",
+        "minutes": 30
+      },
+      {
+        "title": "Heat the oven",
+        "text": "Heat the oven to 425°F. Wipe off any thick puddles of marinade so it doesn't burn."
+      },
+      {
+        "title": "Roast",
+        "text": "Roast the salmon on the center rack.",
+        "minutes": 12
+      },
+      {
+        "title": "Glaze and finish",
+        "text": "Brush with the reserved glaze and roast until the thickest part flakes and reads about 125°F, 6–8 minutes more. For a deeper color, broil 1–2 minutes at the end, watching closely.",
+        "minutes": "6–8"
+      },
+      {
+        "title": "Serve",
+        "text": "Slide onto a platter using the parchment and top with {8} and {9}."
+      }
+    ],
+    "notes": "The original recipe uses four 6-oz fillets; this version scales the marinade for a 3-lb side and adjusts the roasting time. A thinner side may be done a few minutes sooner.\nThe miso and maple can scorch at the thin tail end; tuck it under or tent it with foil if it browns too fast."
+  },
+  {
+    "id": "crispy-smashed-potatoes-garlic-rosemary",
+    "title": "Crispy Smashed Potatoes with Garlic and Rosemary",
+    "description": "Boiled baby potatoes smashed flat and roasted until golden and crisp with olive oil, garlic and rosemary.",
+    "source": {
+      "type": "web",
+      "label": "Feel Good Foodie",
+      "url": "https://feelgoodfoodie.net/recipe/rosemary-garlic-smashed-potatoes/"
+    },
+    "servings": 6,
+    "servingsLabel": "servings",
+    "time": "About 50 min",
+    "tags": [
+      "thanksgiving",
+      "vegetarian",
+      "baked"
+    ],
+    "addedAt": "2026-11-08T01:10:00-08:00",
+    "ingredients": [
+      {
+        "amount": 2,
+        "unit": "lb",
+        "name": "baby Yukon gold or red potatoes"
+      },
+      {
+        "amount": 3,
+        "unit": "tbsp",
+        "name": "olive oil, plus more for flipping"
+      },
+      {
+        "amount": 3,
+        "name": "garlic cloves, minced"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "name": "fresh rosemary, finely chopped"
+      },
+      {
+        "amount": 0.33,
+        "unit": "cup",
+        "name": "grated Parmesan (optional)"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "kosher salt, plus more for the water"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "black pepper"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Boil the potatoes",
+        "text": "Heat the oven to 425°F. Cook {0} in a large pot of salted boiling water until fork-tender, 15–20 minutes. Drain and let cool slightly.",
+        "minutes": "15–20"
+      },
+      {
+        "title": "Smash",
+        "text": "Spread the potatoes on a large rimmed baking sheet and press each one flat with a potato masher or the bottom of a glass, keeping it in one piece."
+      },
+      {
+        "title": "Season",
+        "text": "Drizzle with {1}, then add {2}, {3}, {4}, {5} and {6}. Toss gently with your hands to coat."
+      },
+      {
+        "title": "Roast the first side",
+        "text": "Roast until the bottoms are golden.",
+        "minutes": 15
+      },
+      {
+        "title": "Flip and finish",
+        "text": "Flip the potatoes, add a little more oil and salt if you like, and roast until crispy, 12–15 minutes.",
+        "minutes": "12–15"
+      }
+    ],
+    "notes": "The source page doesn't list quantities; the amounts here are estimates for its 6 servings.\nThe Parmesan is optional; leave it off for a dairy-free version."
+  },
+  {
+    "id": "wild-rice-stuffing-mushrooms-cranberries-pecans",
+    "title": "Wild Rice Stuffing with Mushrooms, Cranberries and Pecans",
+    "description": "Wild rice baked with mushrooms, celery, onion and fresh herbs, finished with toasted pecans, dried cranberries and pepitas.",
+    "source": {
+      "type": "web",
+      "label": "Evolving Table",
+      "url": "https://www.evolvingtable.com/wild-rice-stuffing/"
+    },
+    "servings": 6,
+    "servingsLabel": "servings",
+    "time": "About 1 hr 15 min",
+    "tags": [
+      "thanksgiving",
+      "vegetarian",
+      "baked"
+    ],
+    "addedAt": "2026-11-08T01:10:00-08:00",
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "cup",
+        "name": "wild rice blend"
+      },
+      {
+        "amount": 2.25,
+        "unit": "cup",
+        "name": "vegetable broth"
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "name": "butter or olive oil"
+      },
+      {
+        "amount": 0.5,
+        "name": "sweet onion, diced"
+      },
+      {
+        "amount": 3,
+        "name": "celery stalks, diced"
+      },
+      {
+        "amount": 8,
+        "unit": "oz",
+        "name": "baby bella mushrooms, finely diced"
+      },
+      {
+        "amount": 4,
+        "name": "garlic cloves, minced"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "name": "fresh sage, finely chopped"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "fresh rosemary, finely chopped"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "fresh thyme, finely chopped"
+      },
+      {
+        "amount": 1.5,
+        "unit": "tsp",
+        "name": "salt, to taste"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "black pepper"
+      },
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "name": "raw pecans, coarsely chopped"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "name": "dried cranberries"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "name": "roasted salted pumpkin seeds (pepitas)"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "name": "fresh orange or lemon juice"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Cook the rice",
+        "text": "Heat the oven to 375°F. Bring {0} and {1} to a boil, then cover and simmer on low until tender, 40–45 minutes. Drain any extra liquid.",
+        "minutes": "40–45"
+      },
+      {
+        "title": "Cook the onion and celery",
+        "text": "Meanwhile, melt {2} in a large oven-safe pot or Dutch oven. Cook {3} and {4} until the onion is translucent.",
+        "minutes": "2–3"
+      },
+      {
+        "title": "Add the mushrooms",
+        "text": "Add {5} and cook until browned, 7–8 minutes, adding {6} for the last minute.",
+        "minutes": "7–8"
+      },
+      {
+        "title": "Combine",
+        "text": "Off the heat, stir in the cooked rice, {7}, {8}, {9}, {10} and {11}. Scatter {12} over the top without stirring them in. Move to an 8×10-inch baking dish if you like."
+      },
+      {
+        "title": "Bake",
+        "text": "Bake until the pecans are lightly toasted, 18–20 minutes.",
+        "minutes": "18–20"
+      },
+      {
+        "title": "Finish",
+        "text": "Stir in {13}, {14} and {15}. Top with a few extra fresh herbs and serve."
+      }
+    ],
+    "notes": "Use vegetable broth (not chicken) to keep it vegetarian.\nThe rice can be cooked a day ahead and refrigerated; add a few minutes to the bake if it goes in cold."
+  },
+  {
+    "id": "roasted-delicata-squash-miso-butter",
+    "title": "Roasted Delicata Squash Rings with Miso Butter",
+    "description": "Delicata squash rings roasted until golden, drizzled with a gingery miso-lemon butter and topped with scallions.",
+    "source": {
+      "type": "web",
+      "label": "Bojon Gourmet",
+      "url": "https://bojongourmet.com/roasted-delicata-squash-miso-butter/"
+    },
+    "servings": 6,
+    "servingsLabel": "servings",
+    "time": "About 40 min",
+    "tags": [
+      "thanksgiving",
+      "vegetarian",
+      "baked"
+    ],
+    "addedAt": "2026-11-08T01:10:00-08:00",
+    "ingredients": [
+      {
+        "amount": 4,
+        "name": "medium delicata squash"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "name": "sunflower or grapeseed oil"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "fine sea salt, plus more to taste"
+      },
+      {
+        "amount": 4,
+        "unit": "tbsp",
+        "name": "unsalted butter, melted and warm"
+      },
+      {
+        "amount": 1.5,
+        "unit": "tbsp",
+        "name": "white miso paste"
+      },
+      {
+        "amount": 1.5,
+        "unit": "tsp",
+        "name": "lemon juice"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "fresh ginger, finely grated"
+      },
+      {
+        "amount": 1.5,
+        "unit": "tbsp",
+        "name": "warm water, plus more if needed"
+      },
+      {
+        "amount": 3,
+        "name": "scallions, dark green parts only, thinly sliced"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "togarashi or toasted sesame seeds"
+      },
+      {
+        "amount": 1,
+        "unit": "pinch",
+        "name": "flaky salt"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Cut the squash",
+        "text": "Heat the oven to 400°F with a rack in the center. Cut {0} into ½-inch rounds and scoop out the seeds."
+      },
+      {
+        "title": "Roast",
+        "text": "Toss the rings on a rimmed baking sheet with {1} and {2} and spread in a single layer. Roast until golden on the bottom.",
+        "minutes": 20
+      },
+      {
+        "title": "Flip and finish roasting",
+        "text": "Flip the rings and roast until tender and golden on both sides, about 10 minutes more.",
+        "minutes": 10
+      },
+      {
+        "title": "Make the miso butter",
+        "text": "While the squash roasts, whisk {3}, {4}, {5}, {6} and {7} until smooth, adding water a teaspoon at a time if needed. Strain out any miso lumps, taste and adjust with salt or lemon. Keep warm."
+      },
+      {
+        "title": "Serve",
+        "text": "Arrange the squash on a platter, drizzle with the miso butter and top with {8}, {9} and {10}."
+      }
+    ],
+    "notes": "The original makes about twice the miso butter needed; this version is halved. Double it if you want extra for the table — it keeps 2 weeks in the fridge.\nThe skin is thin and edible, so there's no need to peel."
   }
 ]
