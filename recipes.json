@@ -756,5 +756,125 @@
       }
     ],
     "notes": "The original makes about twice the miso butter needed; this version is halved. Double it if you want extra for the table — it keeps 2 weeks in the fridge.\nThe skin is thin and edible, so there's no need to peel."
+  },
+  {
+    "id": "parmesan-pastina",
+    "title": "Parmesan Pastina",
+    "description": "Star-shaped pastina simmered in a golden broth of blended onion, carrot and celery, finished with egg yolk, Parmesan, garlic and lemon.",
+    "source": {
+      "type": "tiktok",
+      "label": "samanthagee23 (Here's Your Bite) on TikTok"
+    },
+    "servings": 3,
+    "servingsLabel": "servings",
+    "time": "About 40 min",
+    "tags": [
+      "soup",
+      "pasta"
+    ],
+    "addedAt": "2026-11-08T12:10:00-08:00",
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "cup",
+        "name": "low-sodium chicken broth, plus more for a soupier bowl"
+      },
+      {
+        "amount": 2,
+        "unit": "pinch",
+        "name": "salt, plus more to taste"
+      },
+      {
+        "amount": 0.5,
+        "name": "medium onion"
+      },
+      {
+        "amount": 1,
+        "name": "carrot, halved"
+      },
+      {
+        "amount": 1,
+        "name": "celery stalk, halved"
+      },
+      {
+        "amount": 4,
+        "name": "garlic cloves"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "turmeric (optional, for color; up to 1 tsp)"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "name": "pastina (or any small pasta)"
+      },
+      {
+        "amount": 1,
+        "name": "egg yolk (optional)"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "name": "freshly grated Parmesan, plus more for serving"
+      },
+      {
+        "amount": 1,
+        "name": "garlic clove, grated"
+      },
+      {
+        "amount": 0.5,
+        "name": "lemon, juiced"
+      },
+      {
+        "amount": 1,
+        "unit": "pinch",
+        "name": "freshly cracked black pepper"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "name": "extra virgin olive oil, for drizzling"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Simmer the broth",
+        "text": "In a pot, combine {0}, a pinch of the salt, {2}, {3}, {4} and {5}. Bring to a boil, then cover and simmer over medium-low heat until the vegetables are tender.",
+        "minutes": 20
+      },
+      {
+        "title": "Blend the vegetables",
+        "text": "Transfer the cooked vegetables to a blender with {6} and a splash of the broth. Blend until smooth."
+      },
+      {
+        "title": "Season the broth",
+        "text": "Stir the blended vegetables back into the broth with the remaining pinch of salt and {7}."
+      },
+      {
+        "title": "Cook the pastina",
+        "text": "Return the broth to a gentle simmer, then stir in {8} and cook uncovered, stirring often so it doesn't stick, until al dente.",
+        "minutes": 8
+      },
+      {
+        "title": "Add the yolk",
+        "text": "Turn off the heat and immediately stir in {9} so it thickens the broth without scrambling."
+      },
+      {
+        "title": "Finish",
+        "text": "Stir in {10}, {11} and {12}. Taste and adjust salt."
+      },
+      {
+        "title": "Serve",
+        "text": "Serve warm topped with extra Parmesan, {13} and a drizzle of {14}."
+      }
+    ],
+    "notes": "Add more broth if you like it soupier.\nThe Parmesan amount is a starting point — the original says to taste."
   }
 ]
