@@ -5,39 +5,39 @@
     "description": "Juicy, tender poached chicken breasts for shredding, slicing, salads and meal prep.",
     "ingredients": [
       {
-        "amount": 4,
-        "name": "boneless skinless chicken breasts (about 2 lb)"
+        "amount": 2,
+        "name": "boneless skinless chicken breasts (about 1 lb)"
       },
       {
-        "amount": 8,
-        "name": "cold water or low-sodium chicken broth",
-        "unit": "cup"
+        "amount": 4,
+        "unit": "cup",
+        "name": "cold water or low-sodium chicken broth"
+      },
+      {
+        "amount": 1.5,
+        "unit": "tsp",
+        "name": "kosher salt"
       },
       {
         "amount": 1,
-        "name": "kosher salt",
-        "unit": "tbsp"
+        "name": "bay leaf"
       },
       {
         "amount": 2,
-        "name": "bay leaves"
-      },
-      {
-        "amount": 3,
         "name": "garlic cloves, smashed"
       },
       {
-        "amount": 1,
-        "name": "whole black peppercorns",
-        "unit": "tsp"
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "whole black peppercorns"
       },
       {
-        "amount": 0.5,
-        "name": "onion, quartered (optional)"
+        "amount": 0.25,
+        "name": "onion, cut in half (optional)"
       }
     ],
     "notes": "A gentle simmer is the key to tender chicken; a hard boil tightens the meat and makes it rubbery.\nFrozen breasts work too: add about 50% more simmering time and check the temperature.\nStrain and save the cooking liquid as a light stock for soups or rice.\nKeeps 3–4 days in the fridge; store shredded chicken with a splash of the broth to stay moist.\nTo shred: let the chicken rest 5 minutes, then shred it while still warm, since it pulls apart much more easily than cold chicken. Two forks work well: hold the breast steady with one and drag the other along the grain. For a big batch, put the warm breasts in a container with a tight lid and shake hard for 20–30 seconds, and they'll mostly shred themselves.",
-    "servings": 4,
+    "servings": 2,
     "servingsLabel": "breasts",
     "source": {
       "label": "Cooking question in the Recipes chat",
@@ -46,7 +46,7 @@
     "steps": [
       {
         "minutes": 2,
-        "text": "Lay {0} in a single layer in a large pot. Add {1} so the chicken is covered by about an inch, then add {2}, {3}, {4}, {5} and {6}.",
+        "text": "Lay {0} in a single layer in a medium pot. Add {1} so the chicken is covered by about an inch, then add {2}, {3}, {4}, {5} and {6}.",
         "title": "Set up the pot"
       },
       {
