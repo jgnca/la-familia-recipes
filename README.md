@@ -31,3 +31,22 @@ Each entry in `recipes.json` looks like this:
 - `unit` is one of g, kg, ml, l, tsp, tbsp, cup, fl_oz, oz, lb, pinch, or left out for countable items.
 - `{N}` in step text inserts ingredient N (counting from 0) with its scaled amount.
 - Steps with `minutes` get a timer in cooking mode.
+
+## Change log
+
+Every recipe added and every correction made is recorded in `changelog.json`, with the date, the recipe, what changed and why. The site shows it on a Change log page and in a History section on each recipe. [CHANGELOG.md](CHANGELOG.md) is the readable version for GitHub.
+
+To log a change, add an entry to `changelog.json` in the same commit as the edit, then run `python3 scripts/build_changelog.py` to rebuild CHANGELOG.md:
+
+```json
+{
+  "date": "2026-11-09",
+  "recipe": "crispy-smashed-potatoes-garlic-rosemary",
+  "type": "changed",
+  "summary": "What changed, including old and new values (e.g. oven 375°F → 425°F).",
+  "why": "Why it changed."
+}
+```
+
+- `type` is `added`, `changed`, `removed`, or `site` (a change to the book itself; leave out `recipe`).
+- `why` is optional for `added` entries.

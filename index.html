@@ -77,6 +77,23 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
 .steps h3{font-size:17px;margin-bottom:2px}
 .steps p{margin:0}
 .time{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.loglink{align-self:flex-start;margin-top:4px;font:500 13px var(--mono);color:var(--accent);text-decoration:none;padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--paper)}
+.loglink:hover{border-color:var(--accent)}
+.log{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.log li{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.log .kind{font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:var(--chip);color:var(--muted);align-self:start;margin-top:2px;white-space:nowrap}
+.log .kind.changed{background:var(--hi);color:#1f2419}
+.log .kind.added{background:var(--accent);color:var(--accent-ink)}
+.log .body{min-width:0;display:flex;flex-direction:column;gap:3px}
+.log .what{font-family:var(--display);font-weight:700;font-size:16px;color:inherit;text-decoration:none}
+.log a.what:hover{color:var(--accent)}
+.log .why{color:var(--muted);font-size:15px}
+.log .why b{font-weight:600;color:var(--ink)}
+.log time{font:12px var(--mono);color:var(--muted)}
+.logday{font:500 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:18px 0 0}
+.logfilter{display:flex;flex-direction:column;gap:6px}
+.logfilter select{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink)}
+.hist-quiet{margin:0;color:var(--muted)}
 .notes{padding:14px 16px;border-left:3px solid var(--hi);background:var(--paper);border-radius:0 10px 10px 0}
 .notes p{margin:0 0 8px}.notes p:last-child{margin:0}
 .startcook{align-self:flex-start;font:600 16px var(--display);padding:12px 20px;border-radius:999px;border:0;background:var(--accent);color:var(--accent-ink);cursor:pointer}
@@ -115,6 +132,7 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
     <span class="count" id="count">Recipe book</span>
     <h1>La Familia Recipe Book</h1>
     <p>Recipes from the web, family, and friends.</p>
+    <a class="loglink" href="#changelog">Change log</a>
   </header>
   <div id="view"><div class="empty"><strong>Loading recipes…</strong>One moment.</div></div>
 </div>
@@ -234,6 +252,7 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
             <li><div><h3>${esc(s.title||'')}</h3><p>${fill(s.text)}</p>${s.minutes ? `<span class="time">${esc(s.minutes)} min</span>` : ''}</div></li>`).join('')}</ol>
         </section>
         ${r.notes ? `<section><h2>Notes</h2><div class="notes">${String(r.notes).split(/\n+/).map(p=>`<p>${esc(p)}</p>`).join('')}</div></section>` : ''}
+        ${historyHtml(r)}
       </article>`;
     const set = v => { scale[r.id] = Math.max(1, v); renderRecipe(r); };
     document.getElementById('dec').onclick = () => set(cur - 1);
@@ -307,9 +326,56 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
     if (tb) tb.onclick = () => { if (running) return; unlockAudio(); startTimer(s.title || 'Step ' + (i+1), m); timers[timers.length-1].step = r.id + ':' + i; renderCook(); };
   }
 
+  /* ---------- Change log ---------- */
+  let changelog = [], logFilter = '';
+  const KIND = {added:'Added', changed:'Changed', removed:'Removed', site:'Book'};
+  const niceDate = d => { const [y,m,dd] = String(d).split('-').map(Number); return new Date(y, m-1, dd).toLocaleDateString(undefined, {month:'short', day:'numeric', year:'numeric'}); };
+  const newestFirst = list => list.map((e,i)=>[e,i]).sort((a,b)=> String(b[0].date).localeCompare(String(a[0].date)) || b[1]-a[1]).map(p=>p[0]);
+  const titleOf = id => (recipes.find(r => r.id === id) || {}).title || id;
+  const entryHtml = (e, showRecipe) => `<li><span class="kind ${esc(e.type)}">${esc(KIND[e.type] || e.type)}</span><div class="body">
+      ${showRecipe ? (e.recipe ? `<a class="what" href="#r-${esc(e.recipe)}">${esc(titleOf(e.recipe))}</a>` : '<span class="what">Recipe book</span>') : `<time>${esc(niceDate(e.date))}</time>`}
+      <span>${esc(e.summary)}</span>
+      ${e.why ? `<span class="why"><b>Why:</b> ${esc(e.why)}</span>` : ''}
+    </div></li>`;
+
+  function historyHtml(r){
+    const mine = changelog.filter(e => e.recipe === r.id);
+    const add = mine.find(e => e.type === 'added');
+    const changes = newestFirst(mine.filter(e => e.type !== 'added'));
+    if (!add && !changes.length) return '';
+    return `<section><h2>History</h2>
+      ${add ? `<p class="hist-quiet">Added ${esc(niceDate(add.date))}.${changes.length ? '' : ' No changes since.'}</p>` : ''}
+      ${changes.length ? `<ul class="log">${changes.map(e => entryHtml(e, false)).join('')}</ul>` : ''}
+    </section>`;
+  }
+
+  function renderChangelog(){
+    countEl.textContent = 'Change log';
+    const ids = [...new Set(changelog.map(e => e.recipe).filter(Boolean))].sort((a,b)=> titleOf(a).localeCompare(titleOf(b)));
+    if (logFilter && logFilter !== '_book' && !ids.includes(logFilter)) logFilter = '';
+    const list = newestFirst(changelog.filter(e => !logFilter || (logFilter === '_book' ? !e.recipe : e.recipe === logFilter)));
+    let day = null, out = '';
+    for (const e of list){
+      if (e.date !== day){ if (day) out += '</ul>'; day = e.date; out += `<h3 class="logday">${esc(niceDate(day))}</h3><ul class="log">`; }
+      out += entryHtml(e, true);
+    }
+    if (day) out += '</ul>';
+    view.innerHTML = `<div class="sheet">
+      <a class="back" href="#">← All recipes</a>
+      <h1>Change log</h1>
+      <p class="lede" style="margin:0">Every recipe added and every correction made, newest first.</p>
+      <div class="logfilter"><label for="lf" class="count">Show</label>
+        <select id="lf"><option value="">Everything</option><option value="_book"${logFilter==='_book'?' selected':''}>Book-wide changes</option>
+        ${ids.map(id => `<option value="${esc(id)}"${id===logFilter?' selected':''}>${esc(titleOf(id))}</option>`).join('')}</select></div>
+      <div>${out || '<div class="empty"><strong>Nothing logged yet</strong>Changes will appear here as recipes are added or corrected.</div>'}</div>
+    </div>`;
+    document.getElementById('lf').addEventListener('change', ev => { logFilter = ev.target.value; renderChangelog(); });
+  }
+
   function route(){
     if (cook) closeCook();
     const h = location.hash.replace(/^#/, '');
+    if (h === 'changelog'){ renderChangelog(); window.scrollTo(0,0); return; }
     if (h.startsWith('r-')){
       const r = recipes.find(x => x.id === h.slice(2));
       if (r){ renderRecipe(r); window.scrollTo(0,0); return; }
@@ -320,9 +386,13 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
 
   (async () => {
     try {
-      const res = await fetch('recipes.json', { cache: 'no-cache' });
+      const [res, logRes] = await Promise.all([
+        fetch('recipes.json', { cache: 'no-cache' }),
+        fetch('changelog.json', { cache: 'no-cache' }).catch(() => null)
+      ]);
       if (!res.ok) throw new Error(res.status);
       recipes = await res.json();
+      try { if (logRes && logRes.ok) changelog = await logRes.json(); } catch(e){ changelog = []; }
       route();
     } catch (e) {
       view.innerHTML = '<div class="empty"><strong>Recipes didn\'t load</strong>Check your connection and refresh the page.</div>';
