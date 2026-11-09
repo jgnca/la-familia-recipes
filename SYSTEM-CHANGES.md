@@ -7,6 +7,10 @@ _Generated from `changelog.json` by `scripts/build_changelog.py`; edit the JSON,
 
 ## November 9, 2026
 
+- Replaced the Black & White theme with Slate, a calm blue-gray. Themes are now Sage, Dusty Rose, Terracotta and Slate. Anyone who had picked Black & White falls back to Sage.
+  - *Why:* John preferred the blue-gray over plain black and white.
+  - *Files:* `index.html`
+  - *Commit:* pending (filled in on the next update)
 - Split the change log in two. The book's Change log page and CHANGELOG.md now show recipe changes only; system changes (themes, icons, layout, features) go to SYSTEM-CHANGES.md, with the files touched and a link to each commit.
   - *Why:* Cooks only need recipe history; system changes are for the admin.
   - *Files:* `changelog.json`, `scripts/build_changelog.py`, `CHANGELOG.md`, `SYSTEM-CHANGES.md`, `index.html`, `README.md`

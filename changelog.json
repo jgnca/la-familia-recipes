@@ -201,5 +201,14 @@
       "README.md"
     ],
     "commit": "b3f6c2f"
+  },
+  {
+    "date": "2026-11-09",
+    "type": "system",
+    "summary": "Replaced the Black & White theme with Slate, a calm blue-gray. Themes are now Sage, Dusty Rose, Terracotta and Slate. Anyone who had picked Black & White falls back to Sage.",
+    "why": "John preferred the blue-gray over plain black and white.",
+    "files": [
+      "index.html"
+    ]
   }
 ]

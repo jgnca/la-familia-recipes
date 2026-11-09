@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Literata:opsz,wght@7..72,400;7..72,600&family=JetBrains+Mono:wght@500&display=swap">
 <style>
 /* Layout: a kitchen index card file. A list of cards, each opening to a full recipe sheet with a servings dial. */
-/* Themes: Sage (default), Dusty Rose, Terracotta, Black & White. Each follows the device's light/dark setting. */
+/* Themes: Sage (default), Dusty Rose, Terracotta, Slate. Each follows the device's light/dark setting. */
 :root{
   --bg:#f3f4ee; --paper:#fbfcf8; --ink:#1f2419; --muted:#626a57; --line:#d8dccd;
   --accent:#5b6b1e; --accent-ink:#fbfcf8; --chip:#e7eadb; --hi:#d9a21b; --hi-ink:#1f2419;
@@ -30,9 +30,9 @@
 :root[data-palette="terracotta"]{
   --bg:#f6efe8; --paper:#fcf8f3; --ink:#2a1c14; --muted:#76635a; --line:#e6d5c8;
   --accent:#b04f28; --accent-ink:#fcf8f3; --chip:#efe0d4; --hi:#dd9b47; --hi-ink:#2a1c14;}
-:root[data-palette="mono"]{
-  --bg:#ffffff; --paper:#ffffff; --ink:#111111; --muted:#5e5e5e; --line:#dcdcdc;
-  --accent:#111111; --accent-ink:#ffffff; --chip:#f1f1f1; --hi:#111111; --hi-ink:#ffffff;}
+:root[data-palette="slate"]{
+  --bg:#f1f3f5; --paper:#fafbfc; --ink:#1b2229; --muted:#5d6873; --line:#d6dce2;
+  --accent:#4a6378; --accent-ink:#fafbfc; --chip:#e4e9ee; --hi:#c9a04a; --hi-ink:#1b2229;}
 @media (prefers-color-scheme:dark){
   :root{
   --bg:#151812; --paper:#1c2018; --ink:#e7ead9; --muted:#9aa18b; --line:#30362a;
@@ -43,9 +43,9 @@
   :root[data-palette="terracotta"]{
   --bg:#19130f; --paper:#231a14; --ink:#f2e5da; --muted:#ab978a; --line:#3c2d23;
   --accent:#e88b5e; --accent-ink:#19130f; --chip:#2d2119; --hi:#dd9b47; --hi-ink:#19130f; color-scheme:dark}
-  :root[data-palette="mono"]{
-  --bg:#000000; --paper:#0f0f0f; --ink:#f2f2f2; --muted:#a3a3a3; --line:#2e2e2e;
-  --accent:#f2f2f2; --accent-ink:#000000; --chip:#1b1b1b; --hi:#f2f2f2; --hi-ink:#000000; color-scheme:dark}
+  :root[data-palette="slate"]{
+  --bg:#13171b; --paper:#1a1f24; --ink:#e3e8ed; --muted:#98a3ae; --line:#2c343c;
+  --accent:#9fb6c9; --accent-ink:#13171b; --chip:#222930; --hi:#d4ad5a; --hi-ink:#13171b; color-scheme:dark}
 }
 .hdr-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin-top:4px}
 .palettes{display:flex;align-items:center;gap:8px}
@@ -54,7 +54,7 @@
 .palettes [data-p="sage"]{background:#5b6b1e}
 .palettes [data-p="rose"]{background:#c8949a}
 .palettes [data-p="terracotta"]{background:#b04f28}
-.palettes [data-p="mono"]{background:linear-gradient(135deg,#111 50%,#fff 50%)}
+.palettes [data-p="slate"]{background:#6b8296}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55}
 .wrap{max-width:760px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:20px}
 h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.1}
@@ -164,7 +164,7 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
         <button type="button" data-p="sage" aria-label="Sage theme" title="Sage"></button>
         <button type="button" data-p="rose" aria-label="Dusty Rose theme" title="Dusty Rose"></button>
         <button type="button" data-p="terracotta" aria-label="Terracotta theme" title="Terracotta"></button>
-        <button type="button" data-p="mono" aria-label="Black and white theme" title="Black &amp; White"></button>
+        <button type="button" data-p="slate" aria-label="Slate theme" title="Slate"></button>
       </div>
     </div>
   </header>
@@ -361,7 +361,7 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
   }
 
   /* ---------- Color themes ---------- */
-  const PALETTES = ['sage','rose','terracotta','mono'];
+  const PALETTES = ['sage','rose','terracotta','slate'];
   function setPalette(p, save){
     if (!PALETTES.includes(p)) p = 'sage';
     if (p === 'sage') document.documentElement.removeAttribute('data-palette'); else document.documentElement.setAttribute('data-palette', p);
