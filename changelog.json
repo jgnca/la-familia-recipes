@@ -147,5 +147,11 @@
     "date": "2026-11-09",
     "type": "site",
     "summary": "Added this change log, plus a History section on each recipe."
+  },
+  {
+    "date": "2026-11-09",
+    "type": "site",
+    "summary": "Added four color themes, picked from the dots next to Change log: Sage (the original), Dusty Rose, Terracotta, and Black & White. Each one follows the device's light/dark setting, and the choice is saved per device.",
+    "why": "Lets each person pick the look they like while keeping the book simple."
   }
 ]

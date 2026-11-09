@@ -5,6 +5,8 @@ This file is generated from `changelog.json` by `scripts/build_changelog.py`; ed
 
 ## November 9, 2026
 
+- **Book · Recipe book:** Added four color themes, picked from the dots next to Change log: Sage (the original), Dusty Rose, Terracotta, and Black & White. Each one follows the device's light/dark setting, and the choice is saved per device.
+  - *Why:* Lets each person pick the look they like while keeping the book simple.
 - **Book · Recipe book:** Added this change log, plus a History section on each recipe.
 - **Changed · Roasted Delicata Squash Rings with Miso Butter:** The roast and flip steps now say when the pan goes in and comes out of the oven.
   - *Why:* Small gaps in the oven instructions.
