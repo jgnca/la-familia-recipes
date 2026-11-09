@@ -475,7 +475,7 @@
       {
         "amount": 3,
         "unit": "tbsp",
-        "name": "olive oil, plus more for flipping"
+        "name": "olive oil, divided"
       },
       {
         "amount": 3,
@@ -504,30 +504,38 @@
     ],
     "steps": [
       {
+        "title": "Heat the oven",
+        "text": "Heat the oven to 425°F with a rack in the middle. It needs about 15 minutes, so start it now."
+      },
+      {
         "title": "Boil the potatoes",
-        "text": "Heat the oven to 425°F. Cook {0} in a large pot of salted boiling water until fork-tender, 15–20 minutes. Drain and let cool slightly.",
+        "text": "Cook {0} in a large pot of salted boiling water until a fork slides in easily. Drain and let them steam dry for 5 minutes.",
         "minutes": "15–20"
       },
       {
         "title": "Smash",
-        "text": "Spread the potatoes on a large rimmed baking sheet and press each one flat with a potato masher or the bottom of a glass, keeping it in one piece."
+        "text": "Brush a large rimmed baking sheet with 1 tbsp of the oil. Spread out the potatoes and press each one flat with the bottom of a glass or a potato masher, keeping it in one piece."
       },
       {
         "title": "Season",
-        "text": "Drizzle with {1}, then add {2}, {3}, {4}, {5} and {6}. Toss gently with your hands to coat."
+        "text": "Drizzle the rest of the oil over the tops and sprinkle with {5} and {6}."
       },
       {
         "title": "Roast the first side",
-        "text": "Roast until the bottoms are golden.",
+        "text": "Put the pan in the oven and roast until the bottoms are deep golden.",
         "minutes": 15
       },
       {
-        "title": "Flip and finish",
-        "text": "Flip the potatoes, add a little more oil and salt if you like, and roast until crispy, 12–15 minutes.",
+        "title": "Flip and add the garlic",
+        "text": "Take the pan out, flip each potato with a spatula, and scatter {2}, {3} and {4} over the tops."
+      },
+      {
+        "title": "Finish roasting",
+        "text": "Return the pan to the oven and roast until crispy.",
         "minutes": "12–15"
       }
     ],
-    "notes": "The source page doesn't list quantities; the amounts here are estimates for its 6 servings.\nThe Parmesan is optional; leave it off for a dairy-free version."
+    "notes": "The source page doesn't list quantities; the amounts here are estimates for its 6 servings.\nThe Parmesan is optional; leave it off for a dairy-free version.\nThe garlic and Parmesan go on after the flip so they don't burn."
   },
   {
     "id": "wild-rice-stuffing-mushrooms-cranberries-pecans",
