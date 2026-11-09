@@ -376,12 +376,12 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
 
   /* ---------- Change log ---------- */
   let changelog = [], logFilter = '';
-  const KIND = {added:'Added', changed:'Changed', removed:'Removed', site:'Book'};
+  const KIND = {added:'Added', changed:'Changed', removed:'Removed'};
   const niceDate = d => { const [y,m,dd] = String(d).split('-').map(Number); return new Date(y, m-1, dd).toLocaleDateString(undefined, {month:'short', day:'numeric', year:'numeric'}); };
   const newestFirst = list => list.map((e,i)=>[e,i]).sort((a,b)=> String(b[0].date).localeCompare(String(a[0].date)) || b[1]-a[1]).map(p=>p[0]);
   const titleOf = id => (recipes.find(r => r.id === id) || {}).title || id;
   const entryHtml = (e, showRecipe) => `<li><span class="kind ${esc(e.type)}">${esc(KIND[e.type] || e.type)}</span><div class="body">
-      ${showRecipe ? (e.recipe ? `<a class="what" href="#r-${esc(e.recipe)}">${esc(titleOf(e.recipe))}</a>` : '<span class="what">Recipe book</span>') : `<time>${esc(niceDate(e.date))}</time>`}
+      ${showRecipe ? `<a class="what" href="#r-${esc(e.recipe)}">${esc(titleOf(e.recipe))}</a>` : `<time>${esc(niceDate(e.date))}</time>`}
       <span>${esc(e.summary)}</span>
       ${e.why ? `<span class="why"><b>Why:</b> ${esc(e.why)}</span>` : ''}
     </div></li>`;
@@ -399,9 +399,10 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
 
   function renderChangelog(){
     countEl.textContent = 'Change log';
-    const ids = [...new Set(changelog.map(e => e.recipe).filter(Boolean))].sort((a,b)=> titleOf(a).localeCompare(titleOf(b)));
-    if (logFilter && logFilter !== '_book' && !ids.includes(logFilter)) logFilter = '';
-    const list = newestFirst(changelog.filter(e => !logFilter || (logFilter === '_book' ? !e.recipe : e.recipe === logFilter)));
+    const cookLog = changelog.filter(e => e.recipe && e.type !== 'system' && e.type !== 'site');
+    const ids = [...new Set(cookLog.map(e => e.recipe))].sort((a,b)=> titleOf(a).localeCompare(titleOf(b)));
+    if (logFilter && !ids.includes(logFilter)) logFilter = '';
+    const list = newestFirst(cookLog.filter(e => !logFilter || e.recipe === logFilter));
     let day = null, out = '';
     for (const e of list){
       if (e.date !== day){ if (day) out += '</ul>'; day = e.date; out += `<h3 class="logday">${esc(niceDate(day))}</h3><ul class="log">`; }
@@ -413,7 +414,7 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
       <h1>Change log</h1>
       <p class="lede" style="margin:0">Every recipe added and every correction made, newest first.</p>
       <div class="logfilter"><label for="lf" class="count">Show</label>
-        <select id="lf"><option value="">Everything</option><option value="_book"${logFilter==='_book'?' selected':''}>Book-wide changes</option>
+        <select id="lf"><option value="">All recipes</option>
         ${ids.map(id => `<option value="${esc(id)}"${id===logFilter?' selected':''}>${esc(titleOf(id))}</option>`).join('')}</select></div>
       <div>${out || '<div class="empty"><strong>Nothing logged yet</strong>Changes will appear here as recipes are added or corrected.</div>'}</div>
     </div>`;

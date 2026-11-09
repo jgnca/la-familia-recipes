@@ -34,9 +34,14 @@ Each entry in `recipes.json` looks like this:
 
 ## Change log
 
-Every recipe added and every correction made is recorded in `changelog.json`, with the date, the recipe, what changed and why. The site shows it on a Change log page and in a History section on each recipe. [CHANGELOG.md](CHANGELOG.md) is the readable version for GitHub.
+Every change is recorded in `changelog.json`, with the date, what changed and why. It feeds two logs:
 
-To log a change, add an entry to `changelog.json` in the same commit as the edit, then run `python3 scripts/build_changelog.py` to rebuild CHANGELOG.md:
+- **Recipe log:** recipes added, changed or removed. Shown in the book (the Change log page and a History section on each recipe) and in [CHANGELOG.md](CHANGELOG.md).
+- **Admin log:** system changes such as themes, icons, layout and features. Kept out of the book and listed in [SYSTEM-CHANGES.md](SYSTEM-CHANGES.md), with the files touched and a link to each commit.
+
+To log a change, add an entry to `changelog.json` in the same commit as the edit, then run `python3 scripts/build_changelog.py` to rebuild both Markdown files. Never edit the Markdown files by hand.
+
+Recipe entry:
 
 ```json
 {
@@ -48,5 +53,17 @@ To log a change, add an entry to `changelog.json` in the same commit as the edit
 }
 ```
 
-- `type` is `added`, `changed`, `removed`, or `site` (a change to the book itself; leave out `recipe`).
-- `why` is optional for `added` entries.
+System entry:
+
+```json
+{
+  "date": "2026-11-09",
+  "type": "system",
+  "summary": "What changed.",
+  "why": "Why it changed.",
+  "files": ["index.html"]
+}
+```
+
+- Recipe `type` is `added`, `changed` or `removed`; `why` is optional for `added`.
+- System entries leave out `recipe`. Their `commit` is filled in automatically by the build script after the entry is committed.

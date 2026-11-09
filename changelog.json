@@ -1,8 +1,14 @@
 [
   {
     "date": "2026-11-07",
-    "type": "site",
-    "summary": "Recipe book published on GitHub Pages, with search, tag filters, servings scaling and cooking mode with timers."
+    "type": "system",
+    "summary": "Moved the recipe book from a claude.ai artifact to GitHub Pages (static index.html + recipes.json), with search, tag filters, servings scaling and cooking mode with timers.",
+    "commit": "9aa1953",
+    "files": [
+      "index.html",
+      "recipes.json",
+      "README.md"
+    ]
   },
   {
     "date": "2026-11-07",
@@ -25,8 +31,12 @@
   },
   {
     "date": "2026-11-07",
-    "type": "site",
-    "summary": "Book description changed to \"Recipes from the web, family, and friends.\""
+    "type": "system",
+    "summary": "Book description changed to \"Recipes from the web, family, and friends.\"",
+    "commit": "c9cb5b5",
+    "files": [
+      "index.html"
+    ]
   },
   {
     "date": "2026-11-07",
@@ -43,8 +53,15 @@
   },
   {
     "date": "2026-11-08",
-    "type": "site",
-    "summary": "Added the fork-and-spoon home screen icon (dusty rose)."
+    "type": "system",
+    "summary": "Added the fork-and-spoon home screen icon (dusty rose).",
+    "commit": "231f8cf",
+    "files": [
+      "icon.svg",
+      "icon-512.png",
+      "apple-touch-icon.png",
+      "index.html"
+    ]
   },
   {
     "date": "2026-11-08",
@@ -72,8 +89,12 @@
   },
   {
     "date": "2026-11-08",
-    "type": "site",
-    "summary": "Added an A–Z / Newest sort toggle to the recipe list, defaulting to A–Z."
+    "type": "system",
+    "summary": "Added an A–Z / Newest sort toggle to the recipe list, defaulting to A–Z.",
+    "commit": "d325f16",
+    "files": [
+      "index.html"
+    ]
   },
   {
     "date": "2026-11-08",
@@ -145,13 +166,39 @@
   },
   {
     "date": "2026-11-09",
-    "type": "site",
-    "summary": "Added this change log, plus a History section on each recipe."
+    "type": "system",
+    "summary": "Added the change log: changelog.json as the source of truth, a Change log page and per-recipe History section in the book, and CHANGELOG.md generated for GitHub.",
+    "commit": "ae612f6",
+    "files": [
+      "changelog.json",
+      "CHANGELOG.md",
+      "scripts/build_changelog.py",
+      "index.html",
+      "README.md"
+    ]
   },
   {
     "date": "2026-11-09",
-    "type": "site",
+    "type": "system",
     "summary": "Added four color themes, picked from the dots next to Change log: Sage (the original), Dusty Rose, Terracotta, and Black & White. Each one follows the device's light/dark setting, and the choice is saved per device.",
-    "why": "Lets each person pick the look they like while keeping the book simple."
+    "why": "Lets each person pick the look they like while keeping the book simple.",
+    "commit": "b8c6a44",
+    "files": [
+      "index.html"
+    ]
+  },
+  {
+    "date": "2026-11-09",
+    "type": "system",
+    "summary": "Split the change log in two. The book's Change log page and CHANGELOG.md now show recipe changes only; system changes (themes, icons, layout, features) go to SYSTEM-CHANGES.md, with the files touched and a link to each commit.",
+    "why": "Cooks only need recipe history; system changes are for the admin.",
+    "files": [
+      "changelog.json",
+      "scripts/build_changelog.py",
+      "CHANGELOG.md",
+      "SYSTEM-CHANGES.md",
+      "index.html",
+      "README.md"
+    ]
   }
 ]
