@@ -876,5 +876,127 @@
       }
     ],
     "notes": "Add more broth if you like it soupier.\nThe Parmesan amount is a starting point — the original says to taste."
+  },
+  {
+    "id": "rosemary-sourdough-focaccia",
+    "title": "Rosemary Sourdough Focaccia",
+    "description": "Overnight sourdough focaccia in a 9×13 pan — fluffy inside, crisp outside, topped with rosemary and finishing salt and brushed with garlic butter.",
+    "source": {
+      "type": "tiktok",
+      "label": "Sam @ saltnsprinkles on TikTok (shared by samanthagee23); full recipe verified on saltnsprinkles.com",
+      "url": "https://saltnsprinkles.com/sourdough-focaccia-recipe/"
+    },
+    "servings": 12,
+    "servingsLabel": "pieces",
+    "time": "About 21 hours (mostly hands-off; start the day before)",
+    "tags": [
+      "bread",
+      "baked",
+      "vegetarian"
+    ],
+    "addedAt": "2026-11-08T16:40:00-08:00",
+    "ingredients": [
+      {
+        "amount": 75,
+        "unit": "g",
+        "name": "active sourdough starter, 100% hydration (about 1/3 cup)"
+      },
+      {
+        "amount": 400,
+        "unit": "g",
+        "name": "water (about 2 cups)"
+      },
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "bread flour (about 4 cups; all-purpose works)"
+      },
+      {
+        "amount": 10,
+        "unit": "g",
+        "name": "salt (about 1½ tsp)"
+      },
+      {
+        "amount": 3,
+        "unit": "tbsp",
+        "name": "olive oil, for the pan and drizzling (as needed)"
+      },
+      {
+        "amount": 2,
+        "name": "fresh rosemary sprigs, leaves picked"
+      },
+      {
+        "amount": 1,
+        "unit": "pinch",
+        "name": "flaky finishing salt"
+      },
+      {
+        "amount": 3,
+        "unit": "tbsp",
+        "name": "butter"
+      },
+      {
+        "amount": 1,
+        "unit": "tbsp",
+        "name": "fresh parsley, minced"
+      },
+      {
+        "amount": 2,
+        "name": "garlic cloves, minced"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Mix starter and water",
+        "text": "Day one: in a large bowl, whisk {0} into {1} until dissolved."
+      },
+      {
+        "title": "Make the dough and rest",
+        "text": "Add {2} and {3} and stir until a shaggy, sticky dough forms. Rest at room temperature so the flour hydrates.",
+        "minutes": 30
+      },
+      {
+        "title": "Stretch and fold",
+        "text": "Lift a corner of the dough, stretch it up and fold it over the center. Turn the bowl a quarter turn and repeat 15–20 times. This is the only stretch-and-fold session."
+      },
+      {
+        "title": "Bulk ferment",
+        "text": "Cover loosely with a towel and leave at room temperature until just about doubled (up to about 8 hours, depending on your starter and kitchen).",
+        "minutes": 480
+      },
+      {
+        "title": "Refrigerate overnight",
+        "text": "Cover with plastic wrap and refrigerate at least 8 hours (14 is ideal; up to 24 works)."
+      },
+      {
+        "title": "Shape in the pan",
+        "text": "Day two: coat a 9×13 pan with some of {4}. Turn the dough into the pan, pat it into a rough rectangle, then fold the bottom, sides and top into the center to make a square. Flip it seam-side down and center it."
+      },
+      {
+        "title": "Final rise",
+        "text": "Cover loosely and let rest at room temperature until it spreads to fill the pan.",
+        "minutes": 240
+      },
+      {
+        "title": "Dimple and top",
+        "text": "Preheat the oven to 450°F. Drizzle the rest of {4} over the dough, oil your fingers, and dimple all the way to the bottom of the pan. Sprinkle with {5} and {6}."
+      },
+      {
+        "title": "Bake",
+        "text": "Bake until golden brown on top, 25–30 minutes.",
+        "minutes": 25
+      },
+      {
+        "title": "Make the garlic butter",
+        "text": "While it bakes, melt {7} in a small pan over medium heat. Add {8} and {9} and cook until the parsley wilts and the garlic softens without browning, 1–2 minutes.",
+        "minutes": 1
+      },
+      {
+        "title": "Brush and cool",
+        "text": "Brush the hot focaccia with the garlic butter. Cool at least 30 minutes before slicing.",
+        "minutes": 30
+      }
+    ],
+    "notes": "Use active starter, not discard.\nBread flour gives a chewier crumb; all-purpose works too.\nThe original doesn't measure the olive oil — 3 tbsp is a starting point; be generous with the pan.\nStore at room temperature in an airtight container 2–3 days (not the fridge). Reheat slices in a toaster or at 375°F for 5–10 minutes."
   }
 ]
