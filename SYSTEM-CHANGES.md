@@ -10,7 +10,7 @@ _Generated from `changelog.json` by `scripts/build_changelog.py`; edit the JSON,
 - Split the change log in two. The book's Change log page and CHANGELOG.md now show recipe changes only; system changes (themes, icons, layout, features) go to SYSTEM-CHANGES.md, with the files touched and a link to each commit.
   - *Why:* Cooks only need recipe history; system changes are for the admin.
   - *Files:* `changelog.json`, `scripts/build_changelog.py`, `CHANGELOG.md`, `SYSTEM-CHANGES.md`, `index.html`, `README.md`
-  - *Commit:* pending (filled in on the next update)
+  - *Commit:* [b3f6c2f](https://github.com/jgnca/la-familia-recipes/commit/b3f6c2f)
 - Added four color themes, picked from the dots next to Change log: Sage (the original), Dusty Rose, Terracotta, and Black & White. Each one follows the device's light/dark setting, and the choice is saved per device.
   - *Why:* Lets each person pick the look they like while keeping the book simple.
   - *Files:* `index.html`
