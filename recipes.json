@@ -161,7 +161,7 @@
         "title": "Cook wild rice"
       },
       {
-        "text": "Thaw the {0} and pat them dry.",
+        "text": "Heat the oven to 400°F with a rack in the middle; it takes about 15 minutes. Meanwhile, thaw the {0} and pat them dry.",
         "title": "Prep artichokes"
       },
       {
@@ -179,12 +179,12 @@
       },
       {
         "minutes": "20–25",
-        "text": "Bake at 400°F until the artichokes are tender and the filling is hot.",
+        "text": "Put the pan in the oven and bake until the artichokes are tender and the filling is hot.",
         "title": "Bake"
       },
       {
         "minutes": 2,
-        "text": "Top each one generously with {12}, then broil until melted and golden.",
+        "text": "Take the pan out, top each one generously with {12}, and switch the oven to broil. Return the pan to the top third of the oven and broil until melted and golden. Watch closely; it browns fast.",
         "title": "Broil with cheese"
       },
       {
@@ -310,13 +310,21 @@
     ],
     "steps": [
       {
-        "title": "Make the crispy tofu",
-        "text": "Heat the oven to 425°F and line a baking sheet with parchment. Grate the {0} on the large holes of a box grater onto the sheet. Add {1}, {2}, {3} and {4}, drizzle with {5}, toss and spread in a single layer. Bake 15 minutes.",
+        "title": "Heat the oven",
+        "text": "Heat the oven to 425°F with a rack in the middle; it takes about 15 minutes. Line a baking sheet with parchment."
+      },
+      {
+        "title": "Season the tofu",
+        "text": "While the oven heats, grate the {0} on the large holes of a box grater onto the sheet. Add {1}, {2}, {3} and {4}, drizzle with {5}, toss and spread in a single layer."
+      },
+      {
+        "title": "Bake the tofu",
+        "text": "Put the pan in the oven and bake.",
         "minutes": 15
       },
       {
         "title": "Toss and finish the tofu",
-        "text": "Toss the tofu with tongs and bake until crisp, 5–8 minutes more.",
+        "text": "Take the pan out, toss the tofu with tongs, and return it to the oven until crisp.",
         "minutes": "5–8"
       },
       {
@@ -424,21 +432,21 @@
       },
       {
         "title": "Marinate",
-        "text": "Lay {0} skin side down on a parchment-lined rimmed baking sheet and spread the rest of the glaze over the top. Refrigerate.",
+        "text": "Lay {0} skin side down on a parchment-lined rimmed baking sheet and spread the rest of the glaze over the top. Refrigerate. With 15 minutes of marinating left, heat the oven to 425°F with a rack in the center.",
         "minutes": 30
       },
       {
-        "title": "Heat the oven",
-        "text": "Heat the oven to 425°F. Wipe off any thick puddles of marinade so it doesn't burn."
+        "title": "Wipe off extra marinade",
+        "text": "Wipe off any thick puddles of marinade so it doesn't burn."
       },
       {
         "title": "Roast",
-        "text": "Roast the salmon on the center rack.",
+        "text": "Put the pan on the center rack and roast.",
         "minutes": 12
       },
       {
         "title": "Glaze and finish",
-        "text": "Brush with the reserved glaze and roast until the thickest part flakes and reads about 125°F, 6–8 minutes more. For a deeper color, broil 1–2 minutes at the end, watching closely.",
+        "text": "Take the pan out, brush the salmon with the reserved glaze, and return it to the oven until the thickest part flakes and reads about 125°F, 6–8 minutes more. For a deeper color, broil 1–2 minutes at the end, watching closely.",
         "minutes": "6–8"
       },
       {
@@ -637,7 +645,7 @@
     "steps": [
       {
         "title": "Cook the rice",
-        "text": "Heat the oven to 375°F. Bring {0} and {1} to a boil, then cover and simmer on low until tender, 40–45 minutes. Drain any extra liquid.",
+        "text": "Bring {0} and {1} to a boil, then cover and simmer on low until tender, 40–45 minutes. Drain any extra liquid.",
         "minutes": "40–45"
       },
       {
@@ -647,7 +655,7 @@
       },
       {
         "title": "Add the mushrooms",
-        "text": "Add {5} and cook until browned, 7–8 minutes, adding {6} for the last minute.",
+        "text": "Heat the oven to 375°F. Add {5} to the pot and cook until browned, 7–8 minutes, adding {6} for the last minute.",
         "minutes": "7–8"
       },
       {
@@ -656,7 +664,7 @@
       },
       {
         "title": "Bake",
-        "text": "Bake until the pecans are lightly toasted, 18–20 minutes.",
+        "text": "Put the pot or baking dish in the oven, uncovered, and bake until the pecans are lightly toasted, 18–20 minutes.",
         "minutes": "18–20"
       },
       {
@@ -746,12 +754,12 @@
       },
       {
         "title": "Roast",
-        "text": "Toss the rings on a rimmed baking sheet with {1} and {2} and spread in a single layer. Roast until golden on the bottom.",
+        "text": "Toss the rings on a rimmed baking sheet with {1} and {2} and spread in a single layer. Put the pan in the oven and roast until golden on the bottom.",
         "minutes": 20
       },
       {
         "title": "Flip and finish roasting",
-        "text": "Flip the rings and roast until tender and golden on both sides, about 10 minutes more.",
+        "text": "Take the pan out, flip the rings, and return it to the oven until tender and golden on both sides, about 10 minutes more.",
         "minutes": 10
       },
       {
@@ -982,16 +990,16 @@
       },
       {
         "title": "Final rise",
-        "text": "Cover loosely and let rest at room temperature until it spreads to fill the pan.",
+        "text": "Cover loosely and let rest at room temperature until it spreads to fill the pan. About 30 minutes before the rise is done, heat the oven to 450°F with a rack in the middle.",
         "minutes": 240
       },
       {
         "title": "Dimple and top",
-        "text": "Preheat the oven to 450°F. Drizzle the rest of {4} over the dough, oil your fingers, and dimple all the way to the bottom of the pan. Sprinkle with {5} and {6}."
+        "text": "Drizzle the rest of {4} over the dough, oil your fingers, and dimple all the way to the bottom of the pan. Sprinkle with {5} and {6}."
       },
       {
         "title": "Bake",
-        "text": "Bake until golden brown on top, 25–30 minutes.",
+        "text": "Put the pan on the middle rack and bake until golden brown on top, 25–30 minutes.",
         "minutes": 25
       },
       {
