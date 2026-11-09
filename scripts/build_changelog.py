@@ -44,7 +44,8 @@ def first_commit_with(text):
 filled = 0
 for e in log:
     if e.get("type") == "system" and not e.get("commit"):
-        c = first_commit_with(e["summary"])
+        # Search for the summary exactly as it's stored in the JSON (quotes escaped).
+        c = first_commit_with(json.dumps(e["summary"], ensure_ascii=False)[1:-1])
         if c:
             e["commit"] = c
             filled += 1
