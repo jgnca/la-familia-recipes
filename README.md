@@ -32,6 +32,18 @@ Each entry in `recipes.json` looks like this:
 - `{N}` in step text inserts ingredient N (counting from 0) with its scaled amount.
 - Steps with `minutes` get a timer in cooking mode.
 
+## Photos
+
+Each recipe can have one photo of the finished dish, ideally your own, taken when you make it. Recipes without one show a "No photo yet" placeholder.
+
+To add or replace a photo:
+
+```
+python3 scripts/add_photo.py <recipe-id> path/to/photo.jpg --alt "Short description"
+```
+
+The script turns the photo upright, crops it to 4:3, resizes it to 1200×900, saves it as `images/<recipe-id>.jpg` with all metadata removed (iPhone photos include GPS location, and this repo is public), and sets the recipe's `image` field. Then log it in `changelog.json` ("Added a photo") and rebuild the logs.
+
 ## Change log
 
 Every change is recorded in `changelog.json`, with the date, what changed and why. It feeds two logs:

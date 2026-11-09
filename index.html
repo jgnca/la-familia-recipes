@@ -72,10 +72,19 @@ input[type=search]:focus-visible,button:focus-visible,a:focus-visible{outline:2p
 .seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
 .tag[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .list{display:flex;flex-direction:column;gap:10px;margin:0;padding:0;list-style:none}
-.card{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:inherit;text-decoration:none}
+.card{display:grid;grid-template-columns:auto 1fr auto;align-items:start;gap:4px 14px;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--paper);color:inherit;text-decoration:none}
 .card:hover{border-color:var(--accent)}
 .card h2{font-size:20px;font-weight:700;min-width:0}
-.card p{grid-column:1/-1;margin:0;color:var(--muted);font-size:15px}
+.card p{grid-column:2/-1;margin:0;color:var(--muted);font-size:15px}
+.thumb{grid-row:1/span 2;width:64px;height:64px;border-radius:10px;overflow:hidden;background:var(--chip);display:grid;place-items:center;flex:none}
+.thumb img,.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb svg{width:26px;height:26px}
+.photo{margin:0;width:100%;max-width:100%;aspect-ratio:4/3;max-height:420px;border-radius:14px;overflow:hidden;background:var(--chip);display:grid;place-items:center}
+.photo.none{aspect-ratio:auto;height:120px}
+.photo.none div{display:flex;flex-direction:column;align-items:center;gap:6px;color:var(--muted);font:12px var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.photo svg{width:34px;height:34px}
+.mark{fill:var(--muted);opacity:.55}
+@media (max-width:420px){.thumb{width:56px;height:56px}}
 .src{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);white-space:nowrap;align-self:start;padding-top:5px}
 .empty{padding:28px 18px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);text-align:left}
 .empty strong{color:var(--ink);font-family:var(--display);font-size:18px;display:block;margin-bottom:4px}
@@ -180,6 +189,7 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
   try { activeTag = localStorage.getItem('tag') || null; sortMode = localStorage.getItem('sort') === 'new' ? 'new' : 'az'; } catch(e){}
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const MARK = '<svg viewBox="0 0 180 180" aria-hidden="true"><g class="mark"><g transform="rotate(-35 90 90)"><rect x="86" y="70" width="8" height="78" rx="4"/><ellipse cx="90" cy="52" rx="15" ry="22"/></g><g transform="rotate(35 90 90)"><rect x="86" y="62" width="8" height="86" rx="4"/><path d="M74 30 V56 Q74 70 90 70 Q106 70 106 56 V30 H101 V54 H97 V30 H92 V54 H88 V30 H83 V54 H79 V30 Z"/></g></g></svg>';
   const SRC = {instagram:'Instagram', tiktok:'TikTok', web:'Website', question:'Asked Claude', other:'Recipe'};
 
   function frac(x){
@@ -230,6 +240,7 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
         ${tags.length ? `<div class="tags" role="group" aria-label="Filter by tag">${tags.map(t=>`<button type="button" class="tag" data-tag="${esc(t)}" aria-pressed="${t===activeTag}">${esc(t)}</button>`).join('')}</div>` : ''}
         <ul class="list">${shown.map(r=>`
           <li><a class="card" href="#r-${esc(r.id)}">
+            <span class="thumb" aria-hidden="true">${r.image ? `<img src="${esc(r.image)}" alt="" loading="lazy">` : MARK}</span>
             <h2>${esc(r.title)}</h2><span class="src">${esc(SRC[r.source?.type] || 'Recipe')}</span>
             ${r.description ? `<p>${esc(r.description)}</p>` : ''}
           </a></li>`).join('')}</ul>
@@ -258,6 +269,8 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
     view.innerHTML = `
       <article class="sheet">
         <a class="back" href="#">← All recipes</a>
+        ${r.image ? `<figure class="photo"><img src="${esc(r.image)}" alt="${esc(r.imageAlt || r.title)}"></figure>`
+                  : `<figure class="photo none" aria-label="No photo yet"><div>${MARK}<span>No photo yet</span></div></figure>`}
         <div style="display:flex;flex-direction:column;gap:10px">
           <h1>${esc(r.title)}</h1>
           <div class="meta">

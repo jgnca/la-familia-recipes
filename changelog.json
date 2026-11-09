@@ -211,5 +211,16 @@
       "index.html"
     ],
     "commit": "37682c9"
+  },
+  {
+    "date": "2026-11-09",
+    "type": "system",
+    "summary": "Added recipe photos: one photo of the finished dish at the top of each recipe and as a thumbnail in the list, with a \"No photo yet\" placeholder until one is added. New script scripts/add_photo.py crops and resizes photos to 1200×900 and strips all metadata, including GPS location.",
+    "why": "John wants a photo of each finished dish, using his own photos rather than the creators' (which can't be republished in a public repo).",
+    "files": [
+      "index.html",
+      "scripts/add_photo.py",
+      "README.md"
+    ]
   }
 ]

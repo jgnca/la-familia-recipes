@@ -7,6 +7,10 @@ _Generated from `changelog.json` by `scripts/build_changelog.py`; edit the JSON,
 
 ## November 9, 2026
 
+- Added recipe photos: one photo of the finished dish at the top of each recipe and as a thumbnail in the list, with a "No photo yet" placeholder until one is added. New script scripts/add_photo.py crops and resizes photos to 1200×900 and strips all metadata, including GPS location.
+  - *Why:* John wants a photo of each finished dish, using his own photos rather than the creators' (which can't be republished in a public repo).
+  - *Files:* `index.html`, `scripts/add_photo.py`, `README.md`
+  - *Commit:* pending (filled in on the next update)
 - Replaced the Black & White theme with Slate, a calm blue-gray. Themes are now Sage, Dusty Rose, Terracotta and Slate. Anyone who had picked Black & White falls back to Sage.
   - *Why:* John preferred the blue-gray over plain black and white.
   - *Files:* `index.html`
