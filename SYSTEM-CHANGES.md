@@ -10,7 +10,7 @@ _Generated from `changelog.json` by `scripts/build_changelog.py`; edit the JSON,
 - Added a "Suggest a change" button at the bottom of every recipe. It opens John's Google Form (no sign-in needed) with the recipe name filled in. Requests are emailed to John and saved in the form's linked Google Sheet.
   - *Why:* Lets readers like John's wife request corrections, with a record of every request, including ones that aren't acted on.
   - *Files:* `index.html`, `README.md`
-  - *Commit:* pending (filled in on the next update)
+  - *Commit:* [7751ece](https://github.com/jgnca/la-familia-recipes/commit/7751ece)
 - Added recipe photos: one photo of the finished dish at the top of each recipe and as a thumbnail in the list, with a "No photo yet" placeholder until one is added. New script scripts/add_photo.py crops and resizes photos to 1200×900 and strips all metadata, including GPS location.
   - *Why:* John wants a photo of each finished dish, using his own photos rather than the creators' (which can't be republished in a public repo).
   - *Files:* `index.html`, `scripts/add_photo.py`, `README.md`
