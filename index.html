@@ -129,6 +129,10 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
 .logfilter{display:flex;flex-direction:column;gap:6px}
 .logfilter select{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink)}
 .hist-quiet{margin:0;color:var(--muted)}
+.suggest{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:14px 16px;border:1px dashed var(--line);border-radius:12px}
+.suggest p{margin:0;color:var(--muted)}
+.suggestbtn{font:600 15px var(--display);padding:9px 16px;border-radius:999px;border:1px solid var(--accent);color:var(--accent);text-decoration:none;background:var(--paper)}
+.suggestbtn:hover{background:var(--accent);color:var(--accent-ink)}
 .notes{padding:14px 16px;border-left:3px solid var(--hi);background:var(--paper);border-radius:0 10px 10px 0}
 .notes p{margin:0 0 8px}.notes p:last-child{margin:0}
 .startcook{align-self:flex-start;font:600 16px var(--display);padding:12px 20px;border-radius:999px;border:0;background:var(--accent);color:var(--accent-ink);cursor:pointer}
@@ -190,6 +194,7 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
 
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const MARK = '<svg viewBox="0 0 180 180" aria-hidden="true"><g class="mark"><g transform="rotate(-35 90 90)"><rect x="86" y="70" width="8" height="78" rx="4"/><ellipse cx="90" cy="52" rx="15" ry="22"/></g><g transform="rotate(35 90 90)"><rect x="86" y="62" width="8" height="86" rx="4"/><path d="M74 30 V56 Q74 70 90 70 Q106 70 106 56 V30 H101 V54 H97 V30 H92 V54 H88 V30 H83 V54 H79 V30 Z"/></g></g></svg>';
+  const SUGGEST_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSfnIvQscxk1DeBNWc3TvSXSQ7sqAgltbx9CsggquzhGkl6j4w/viewform?usp=pp_url&entry.158123493=';
   const SRC = {instagram:'Instagram', tiktok:'TikTok', web:'Website', question:'Asked Claude', other:'Recipe'};
 
   function frac(x){
@@ -300,6 +305,8 @@ section h2{font-size:14px;font-family:var(--mono);font-weight:500;letter-spacing
         </section>
         ${r.notes ? `<section><h2>Notes</h2><div class="notes">${String(r.notes).split(/\n+/).map(p=>`<p>${esc(p)}</p>`).join('')}</div></section>` : ''}
         ${historyHtml(r)}
+        <section class="suggest"><p>Something off in this recipe?</p>
+          <a class="suggestbtn" href="${esc(SUGGEST_URL + encodeURIComponent(r.title))}" target="_blank" rel="noopener">Suggest a change</a></section>
       </article>`;
     const set = v => { scale[r.id] = Math.max(1, v); renderRecipe(r); };
     document.getElementById('dec').onclick = () => set(cur - 1);

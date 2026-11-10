@@ -44,6 +44,12 @@ python3 scripts/add_photo.py <recipe-id> path/to/photo.jpg --alt "Short descript
 
 The script turns the photo upright, crops it to 4:3, resizes it to 1200×900, saves it as `images/<recipe-id>.jpg` with all metadata removed (iPhone photos include GPS location, and this repo is public), and sets the recipe's `image` field. Then log it in `changelog.json` ("Added a photo") and rebuild the logs.
 
+## Change requests
+
+Every recipe ends with a **Suggest a change** button that opens a Google Form (no sign-in needed) with the recipe name filled in. The form asks what kind of change, the details, and an optional name. New responses are emailed to John and saved in the form's linked Google Sheet, which is the record of every request, including ones that aren't acted on.
+
+When a request leads to an edit, the change log entry's `why` says who requested it (for example, "Requested via the suggestion form: …").
+
 ## Change log
 
 Every change is recorded in `changelog.json`, with the date, what changed and why. It feeds two logs:

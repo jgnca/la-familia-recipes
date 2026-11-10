@@ -223,5 +223,15 @@
       "README.md"
     ],
     "commit": "f672e27"
+  },
+  {
+    "date": "2026-11-09",
+    "type": "system",
+    "summary": "Added a \"Suggest a change\" button at the bottom of every recipe. It opens John's Google Form (no sign-in needed) with the recipe name filled in. Requests are emailed to John and saved in the form's linked Google Sheet.",
+    "why": "Lets readers like John's wife request corrections, with a record of every request, including ones that aren't acted on.",
+    "files": [
+      "index.html",
+      "README.md"
+    ]
   }
 ]
