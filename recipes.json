@@ -1014,5 +1014,108 @@
       }
     ],
     "notes": "Use active starter, not discard.\nBread flour gives a chewier crumb; all-purpose works too.\nThe original doesn't measure the olive oil — 3 tbsp is a starting point; be generous with the pan.\nStore at room temperature in an airtight container 2–3 days (not the fridge). Reheat slices in a toaster or at 375°F for 5–10 minutes."
+  },
+  {
+    "id": "choux-pastry-beignets",
+    "title": "Choux Pastry Beignets",
+    "description": "Light, airy French-style beignets made from scratch pâte à choux, fried until puffed and golden and buried in powdered sugar.",
+    "source": {
+      "type": "web",
+      "label": "Baker Bettie — Pâte à Choux Beignets",
+      "url": "https://bakerbettie.com/homemade-beignets-pate-choux/"
+    },
+    "servings": 36,
+    "servingsLabel": "beignets",
+    "time": "About 1 hr 45 min (includes 1 hr chilling)",
+    "tags": [
+      "dessert",
+      "vegetarian"
+    ],
+    "addedAt": "2026-11-15T09:00:00-08:00",
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "cup",
+        "name": "water (240 ml)"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "name": "unsalted butter, cut into pieces (1 stick, 113 g)"
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "name": "granulated sugar (24 g)"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "kosher salt"
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "name": "all-purpose flour (127 g)"
+      },
+      {
+        "amount": 4,
+        "name": "large eggs, room temperature"
+      },
+      {
+        "amount": 2,
+        "unit": "l",
+        "name": "neutral oil for frying, such as canola (at least 2 inches deep)"
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "name": "powdered sugar, for dusting"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Boil the liquid",
+        "text": "In a medium saucepan over medium-high heat, combine {0}, {1}, {2} and {3}. Heat until the butter melts and the mixture comes to a full boil."
+      },
+      {
+        "title": "Cook in the flour",
+        "text": "Turn the heat to medium, dump in {4} all at once and stir hard with a wooden spoon. Keep stirring until the dough pulls away from the sides and forms a smooth ball and a thin film coats the bottom of the pan, about 1–2 minutes.",
+        "minutes": 1
+      },
+      {
+        "title": "Cool the dough",
+        "text": "Move the dough to a stand mixer bowl with the paddle (or a large bowl for a hand mixer or spoon). Mix on low for a minute to release steam, then let it cool until just warm, about 5 minutes, so the eggs don't scramble.",
+        "minutes": 5
+      },
+      {
+        "title": "Beat in the eggs",
+        "text": "On medium-low, add {5} one at a time, letting each one fully absorb before adding the next. It will look broken at first, then come together. The batter is ready when it's smooth and glossy and falls from the paddle in a thick V-shaped ribbon."
+      },
+      {
+        "title": "Chill the batter",
+        "text": "Cover the batter with plastic wrap pressed onto the surface and refrigerate at least 1 hour, or up to overnight. Chilled batter is easier to scoop and holds its shape in the oil.",
+        "minutes": 60
+      },
+      {
+        "title": "Heat the oil",
+        "text": "Near the end of chilling, pour {6} into a heavy pot or Dutch oven (at least 2 inches deep, no more than half full) and heat over medium-high to 350°F on a deep-fry thermometer. Set a paper-towel-lined tray and a slotted spoon next to the stove.",
+        "minutes": 10
+      },
+      {
+        "title": "Fry in batches",
+        "text": "Drop about 1 tablespoon of batter per beignet into the oil using a small cookie scoop or two spoons. Fry 5–6 at a time; they puff a lot. Turn them after a few minutes and fry until both sides are deep golden and a seam splits open, about 7–9 minutes total. Keep the oil near 350°F.",
+        "minutes": 7
+      },
+      {
+        "title": "Drain and repeat",
+        "text": "Lift the beignets onto the paper towels. Let the oil come back to 350°F, then fry the next batch."
+      },
+      {
+        "title": "Dust and serve",
+        "text": "While still warm, dust heavily with {7} (a sieve works best). Serve right away."
+      }
+    ],
+    "notes": "These are choux-style beignets (like French beignets soufflés): crisp outside and hollow and tender inside. New Orleans café-style beignets are a yeast dough, rolled and cut into squares — a different recipe.\nYield is an estimate: the source doesn't give one; about 1 tbsp of batter each makes roughly 3 dozen.\nIf they're dark outside but raw or gummy inside, the oil is too hot; if they're greasy and don't puff, it's too cool. Fry one test beignet first and break it open.\nThe salt amount is our measurement for the source's \"large pinch.\" Oil amount depends on your pot — you just need 2 inches.\nBest eaten within minutes. Never leave hot oil unattended; let it cool completely before discarding."
   }
 ]

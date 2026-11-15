@@ -5,6 +5,10 @@ Changes to the book itself are in [SYSTEM-CHANGES.md](SYSTEM-CHANGES.md).
 
 _Generated from `changelog.json` by `scripts/build_changelog.py`; edit the JSON, not this file._
 
+## November 15, 2026
+
+- **Added · Choux Pastry Beignets:** Added Choux Pastry Beignets, from Baker Bettie's pâte à choux beignets (bakerbettie.com). Salt measured as ½ tsp (source says a large pinch) and yield estimated at about 3 dozen.
+
 ## November 9, 2026
 
 - **Changed · Roasted Delicata Squash Rings with Miso Butter:** The roast and flip steps now say when the pan goes in and comes out of the oven.
