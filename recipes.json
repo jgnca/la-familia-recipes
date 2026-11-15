@@ -1117,5 +1117,119 @@
       }
     ],
     "notes": "These are choux-style beignets (like French beignets soufflés): crisp outside and hollow and tender inside. New Orleans café-style beignets are a yeast dough, rolled and cut into squares — a different recipe.\nYield is an estimate: the source doesn't give one; about 1 tbsp of batter each makes roughly 3 dozen.\nIf they're dark outside but raw or gummy inside, the oil is too hot; if they're greasy and don't puff, it's too cool. Fry one test beignet first and break it open.\nThe salt amount is our measurement for the source's \"large pinch.\" Oil amount depends on your pot — you just need 2 inches.\nBest eaten within minutes. Never leave hot oil unattended; let it cool completely before discarding."
+  },
+  {
+    "id": "new-orleans-beignets",
+    "title": "New Orleans Beignets",
+    "description": "Café-style yeast beignets: soft, pillowy squares of fried dough tossed in a snowdrift of powdered sugar.",
+    "source": {
+      "type": "web",
+      "label": "Handle the Heat — How to Make Beignets (New Orleans French Quarter-style)",
+      "url": "https://handletheheat.com/how-to-make-beignets/"
+    },
+    "servings": 28,
+    "servingsLabel": "beignets",
+    "time": "About 2 hr 15 min (includes 1½ hr rising)",
+    "tags": [
+      "dessert",
+      "vegetarian"
+    ],
+    "addedAt": "2026-11-15T09:10:00-08:00",
+    "ingredients": [
+      {
+        "amount": 0.75,
+        "unit": "cup",
+        "name": "lukewarm water (about 105–110°F)"
+      },
+      {
+        "amount": 0.25,
+        "unit": "cup",
+        "name": "granulated sugar (50 g)"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "instant yeast"
+      },
+      {
+        "amount": 1,
+        "name": "large egg plus 1 egg yolk, lightly beaten"
+      },
+      {
+        "amount": 0.75,
+        "unit": "tsp",
+        "name": "fine sea salt"
+      },
+      {
+        "amount": 0.5,
+        "unit": "cup",
+        "name": "evaporated milk"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "vanilla extract"
+      },
+      {
+        "amount": 4,
+        "unit": "cup",
+        "name": "bread flour (508 g), divided in half, plus more for rolling"
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "name": "unsalted butter, very soft (28 g)"
+      },
+      {
+        "amount": 2,
+        "unit": "l",
+        "name": "vegetable or canola oil for frying (3–4 inches deep)"
+      },
+      {
+        "amount": 1.5,
+        "unit": "cup",
+        "name": "powdered sugar"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Start the dough",
+        "text": "In a stand mixer bowl fitted with the dough hook, combine {0}, {1}, {2}, {3}, {4}, {5}, {6} and half of {7} (254 g, 2 cups). Mix on low until combined."
+      },
+      {
+        "title": "Add butter and knead",
+        "text": "On low, add {8}, then the rest of the flour. Raise to medium and knead until the dough is soft, smooth and slightly tacky, 2–3 minutes. Only if it's very sticky, add more flour 1 tablespoon at a time.",
+        "minutes": 2
+      },
+      {
+        "title": "First rise",
+        "text": "Put the dough in a greased bowl, cover, and leave in a warm spot until doubled, about 1 hour. (Or refrigerate the risen dough up to 3 days; bring it back to room temperature before rolling.)",
+        "minutes": 60
+      },
+      {
+        "title": "Punch down and rest",
+        "text": "Punch the dough down, cover again and let it rise about 30 minutes more.",
+        "minutes": 30
+      },
+      {
+        "title": "Heat the oil",
+        "text": "During the second rise, pour {9} into a wide Dutch oven or heavy pot (3–4 inches deep, no more than half full) and heat over medium-high to 350°F on a deep-fry thermometer. Sift {10} into a large bowl and line a tray with paper towels.",
+        "minutes": 15
+      },
+      {
+        "title": "Roll and cut",
+        "text": "On a floured counter, roll the dough into a rectangle about ¼ inch thick, flouring as needed so the pin doesn't stick. Cut into 2½-inch squares with a pizza cutter or pastry wheel."
+      },
+      {
+        "title": "Fry",
+        "text": "Fry 3–4 squares at a time, flipping about every 20 seconds, until puffed and golden on both sides, about 2–3 minutes per batch. Adjust the heat to keep the oil at 350°F.",
+        "minutes": 2
+      },
+      {
+        "title": "Sugar and serve",
+        "text": "Lift out with a slotted spoon or spider, drain a few seconds on the paper towels, then toss in the powdered sugar while hot. Serve right away, ideally with strong coffee or café au lait."
+      }
+    ],
+    "notes": "Evaporated milk is the classic ingredient for the rich, fluffy texture; room-temperature whole milk works in a pinch.\nThe source gives the flip interval but not a total fry time — 2–3 minutes per batch is our estimate. Pull one and tear it open: it should be cooked through and airy.\nThe source's recipe card says 350°F; the article text mentions 360°F. Either works — just hold it steady.\nFor the choux (French beignets soufflés) version, see Choux Pastry Beignets.\nNever leave hot oil unattended; let it cool completely before discarding."
   }
 ]

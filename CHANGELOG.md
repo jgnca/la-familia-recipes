@@ -7,6 +7,7 @@ _Generated from `changelog.json` by `scripts/build_changelog.py`; edit the JSON,
 
 ## November 15, 2026
 
+- **Added · New Orleans Beignets:** Added New Orleans Beignets (yeast dough), from Handle the Heat's French Quarter-style beignets (handletheheat.com). Fry time per batch (2–3 min) estimated; the source gives only the 20-second flip interval.
 - **Added · Choux Pastry Beignets:** Added Choux Pastry Beignets, from Baker Bettie's pâte à choux beignets (bakerbettie.com). Salt measured as ½ tsp (source says a large pinch) and yield estimated at about 3 dozen.
 
 ## November 9, 2026

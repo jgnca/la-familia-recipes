@@ -240,5 +240,11 @@
     "recipe": "choux-pastry-beignets",
     "type": "added",
     "summary": "Added Choux Pastry Beignets, from Baker Bettie's pâte à choux beignets (bakerbettie.com). Salt measured as ½ tsp (source says a large pinch) and yield estimated at about 3 dozen."
+  },
+  {
+    "date": "2026-11-15",
+    "recipe": "new-orleans-beignets",
+    "type": "added",
+    "summary": "Added New Orleans Beignets (yeast dough), from Handle the Heat's French Quarter-style beignets (handletheheat.com). Fry time per batch (2–3 min) estimated; the source gives only the 20-second flip interval."
   }
 ]
