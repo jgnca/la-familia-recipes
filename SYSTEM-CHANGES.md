@@ -10,7 +10,7 @@ _Generated from `changelog.json` by `scripts/build_changelog.py`; edit the JSON,
 - Removed the "No photo yet" placeholder. Recipes without a photo now show no photo area on the recipe page and no thumbnail box in the list (the card text uses the full width). Recipes with a photo look the same as before.
   - *Why:* John didn't like the placeholder and won't be photographing most dishes.
   - *Files:* `index.html`, `README.md`
-  - *Commit:* pending (filled in on the next update)
+  - *Commit:* [f5c3234](https://github.com/jgnca/la-familia-recipes/commit/f5c3234)
 
 ## November 9, 2026
 
