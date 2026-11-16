@@ -34,7 +34,7 @@ Each entry in `recipes.json` looks like this:
 
 ## Photos
 
-Each recipe can have one photo of the finished dish, ideally your own, taken when you make it. Recipes without one show a "No photo yet" placeholder.
+Each recipe can have one photo of the finished dish, ideally your own, taken when you make it. Recipes without one simply show no photo (no placeholder) until one is added.
 
 To add or replace a photo:
 

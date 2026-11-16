@@ -5,6 +5,13 @@ Recipe additions and corrections are in [CHANGELOG.md](CHANGELOG.md).
 
 _Generated from `changelog.json` by `scripts/build_changelog.py`; edit the JSON, not this file._
 
+## November 15, 2026
+
+- Removed the "No photo yet" placeholder. Recipes without a photo now show no photo area on the recipe page and no thumbnail box in the list (the card text uses the full width). Recipes with a photo look the same as before.
+  - *Why:* John didn't like the placeholder and won't be photographing most dishes.
+  - *Files:* `index.html`, `README.md`
+  - *Commit:* pending (filled in on the next update)
+
 ## November 9, 2026
 
 - Added a "Suggest a change" button at the bottom of every recipe. It opens John's Google Form (no sign-in needed) with the recipe name filled in. Requests are emailed to John and saved in the form's linked Google Sheet.

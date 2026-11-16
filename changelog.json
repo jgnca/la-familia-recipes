@@ -246,5 +246,15 @@
     "recipe": "new-orleans-beignets",
     "type": "added",
     "summary": "Added New Orleans Beignets (yeast dough), from Handle the Heat's French Quarter-style beignets (handletheheat.com). Fry time per batch (2–3 min) estimated; the source gives only the 20-second flip interval."
+  },
+  {
+    "date": "2026-11-15",
+    "type": "system",
+    "summary": "Removed the \"No photo yet\" placeholder. Recipes without a photo now show no photo area on the recipe page and no thumbnail box in the list (the card text uses the full width). Recipes with a photo look the same as before.",
+    "why": "John didn't like the placeholder and won't be photographing most dishes.",
+    "files": [
+      "index.html",
+      "README.md"
+    ]
   }
 ]
