@@ -257,5 +257,11 @@
       "README.md"
     ],
     "commit": "f5c3234"
+  },
+  {
+    "date": "2026-11-17",
+    "recipe": "simple-lemon-garlic-baked-salmon",
+    "type": "added",
+    "summary": "Added Simple Lemon Garlic Baked Salmon, written in the Recipes chat from John's request for a simple salmon with salt, pepper, lemon and garlic paste."
   }
 ]

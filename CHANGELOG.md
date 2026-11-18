@@ -5,6 +5,10 @@ Changes to the book itself are in [SYSTEM-CHANGES.md](SYSTEM-CHANGES.md).
 
 _Generated from `changelog.json` by `scripts/build_changelog.py`; edit the JSON, not this file._
 
+## November 17, 2026
+
+- **Added · Simple Lemon Garlic Baked Salmon:** Added Simple Lemon Garlic Baked Salmon, written in the Recipes chat from John's request for a simple salmon with salt, pepper, lemon and garlic paste.
+
 ## November 15, 2026
 
 - **Added · New Orleans Beignets:** Added New Orleans Beignets (yeast dough), from Handle the Heat's French Quarter-style beignets (handletheheat.com). Fry time per batch (2–3 min) estimated; the source gives only the 20-second flip interval.

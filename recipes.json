@@ -1231,5 +1231,78 @@
       }
     ],
     "notes": "Evaporated milk is the classic ingredient for the rich, fluffy texture; room-temperature whole milk works in a pinch.\nThe source gives the flip interval but not a total fry time — 2–3 minutes per batch is our estimate. Pull one and tear it open: it should be cooked through and airy.\nThe source's recipe card says 350°F; the article text mentions 360°F. Either works — just hold it steady.\nFor the choux (French beignets soufflés) version, see Choux Pastry Beignets.\nNever leave hot oil unattended; let it cool completely before discarding."
+  },
+  {
+    "id": "simple-lemon-garlic-baked-salmon",
+    "title": "Simple Lemon Garlic Baked Salmon",
+    "description": "Weeknight salmon with just salt, pepper, lemon and garlic. On the table in about 20 minutes.",
+    "source": {
+      "type": "question",
+      "label": "Cooking question in the Recipes chat"
+    },
+    "servings": 4,
+    "servingsLabel": "servings",
+    "time": "About 25 min",
+    "tags": [
+      "fish",
+      "baked"
+    ],
+    "addedAt": "2026-11-17T22:40:00-08:00",
+    "ingredients": [
+      {
+        "amount": 1.5,
+        "unit": "lb",
+        "name": "salmon fillets (about 6 oz each), skin-on or skinless"
+      },
+      {
+        "amount": 1.5,
+        "unit": "tbsp",
+        "name": "olive oil or melted butter"
+      },
+      {
+        "amount": 2,
+        "unit": "tsp",
+        "name": "garlic paste"
+      },
+      {
+        "amount": 0.75,
+        "unit": "tsp",
+        "name": "kosher salt"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "black pepper"
+      },
+      {
+        "amount": 1,
+        "name": "lemon (half sliced, half for juice)"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Preheat",
+        "text": "Set a rack in the middle of the oven and heat to 400°F (200°C), about 15 minutes. Line a baking sheet with parchment or foil.",
+        "minutes": 15
+      },
+      {
+        "title": "Season",
+        "text": "While the oven heats, pat {0} dry and place on the sheet, skin side down. Stir {1} with {2} and brush over the tops. Sprinkle with {3} and {4}."
+      },
+      {
+        "title": "Add lemon",
+        "text": "Thinly slice half of {5} and lay the slices over the fillets. Save the other half for squeezing."
+      },
+      {
+        "title": "Bake",
+        "text": "Put the pan in the oven on the middle rack. Bake until the salmon flakes easily and reads 125–130°F in the thickest part for moist salmon (145°F for well done), about 12–15 minutes for 1-inch-thick fillets.",
+        "minutes": 12
+      },
+      {
+        "title": "Finish",
+        "text": "Take the pan out, squeeze the remaining lemon over the top and serve right away."
+      }
+    ],
+    "notes": "Thinner fillets may be done in 8–10 minutes, so check early.\nGarlic paste burns quickly under the broiler; leave the broiler off.\nFresh dill or parsley on top is a good optional addition."
   }
 ]
