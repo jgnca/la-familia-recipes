@@ -263,5 +263,11 @@
     "recipe": "simple-lemon-garlic-baked-salmon",
     "type": "added",
     "summary": "Added Simple Lemon Garlic Baked Salmon, written in the Recipes chat from John's request for a simple salmon with salt, pepper, lemon and garlic paste."
+  },
+  {
+    "date": "2026-11-20",
+    "recipe": "red-lentil-soup",
+    "type": "added",
+    "summary": "Added Red Lentil Soup, from Love and Lemons (loveandlemons.com). Black pepper set to ¼ tsp (source says \"to taste\"); cayenne marked optional per the source's note."
   }
 ]

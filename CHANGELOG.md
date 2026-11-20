@@ -5,6 +5,10 @@ Changes to the book itself are in [SYSTEM-CHANGES.md](SYSTEM-CHANGES.md).
 
 _Generated from `changelog.json` by `scripts/build_changelog.py`; edit the JSON, not this file._
 
+## November 20, 2026
+
+- **Added · Red Lentil Soup:** Added Red Lentil Soup, from Love and Lemons (loveandlemons.com). Black pepper set to ¼ tsp (source says "to taste"); cayenne marked optional per the source's note.
+
 ## November 17, 2026
 
 - **Added · Simple Lemon Garlic Baked Salmon:** Added Simple Lemon Garlic Baked Salmon, written in the Recipes chat from John's request for a simple salmon with salt, pepper, lemon and garlic paste.

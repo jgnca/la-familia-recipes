@@ -1304,5 +1304,121 @@
       }
     ],
     "notes": "Thinner fillets may be done in 8–10 minutes, so check early.\nGarlic paste burns quickly under the broiler; leave the broiler off.\nFresh dill or parsley on top is a good optional addition."
+  },
+  {
+    "id": "red-lentil-soup",
+    "title": "Red Lentil Soup",
+    "description": "Turkish-inspired red lentil soup with cumin and lemon, partly blended so it's creamy without any cream.",
+    "source": {
+      "type": "web",
+      "label": "Love and Lemons (loveandlemons.com)",
+      "url": "https://www.loveandlemons.com/red-lentil-soup"
+    },
+    "servings": 6,
+    "servingsLabel": "servings",
+    "time": "About 50 min",
+    "tags": [
+      "soup",
+      "vegetarian"
+    ],
+    "addedAt": "2026-11-20T15:40:00-08:00",
+    "ingredients": [
+      {
+        "amount": 3,
+        "unit": "tbsp",
+        "name": "extra-virgin olive oil, plus more for drizzling"
+      },
+      {
+        "amount": 1,
+        "name": "medium yellow onion, chopped"
+      },
+      {
+        "amount": 1,
+        "name": "medium carrot, diced"
+      },
+      {
+        "amount": 1,
+        "name": "celery rib, chopped"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "sea salt, plus more to taste"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "black pepper, plus more to taste"
+      },
+      {
+        "amount": 1,
+        "name": "small Yukon Gold potato, diced"
+      },
+      {
+        "amount": 2,
+        "name": "garlic cloves, chopped"
+      },
+      {
+        "amount": 1,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "amount": 1,
+        "unit": "pinch",
+        "name": "cayenne pepper (optional)"
+      },
+      {
+        "amount": 1,
+        "unit": "cup",
+        "name": "dried red lentils, rinsed"
+      },
+      {
+        "amount": 4,
+        "unit": "cup",
+        "name": "vegetable broth"
+      },
+      {
+        "amount": 2,
+        "unit": "cup",
+        "name": "water (1 to 2 cups)"
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "name": "fresh lemon juice"
+      },
+      {
+        "amount": 2,
+        "unit": "tbsp",
+        "name": "chopped fresh parsley or cilantro, for garnish"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Soften the vegetables",
+        "text": "Warm {0} in a large pot or Dutch oven over medium heat. Add {1}, {2}, {3}, {4} and {5}. Cook, stirring now and then, until soft, about 8 minutes.",
+        "minutes": 8
+      },
+      {
+        "title": "Add spices",
+        "text": "Stir in {6}, {7}, {8} and {9}. Cook for about 1 minute, until fragrant.",
+        "minutes": 1
+      },
+      {
+        "title": "Simmer",
+        "text": "Add {10}, {11} and 1 cup of the water. Bring to a simmer and cook until the lentils and potato are very soft, about 30 minutes.",
+        "minutes": 30
+      },
+      {
+        "title": "Partly blend",
+        "text": "Take the pot off the heat. Blend with an immersion blender until mostly smooth but with some texture left (or blend most of it in a countertop blender and stir it back in). If it's too thick, add some or all of the remaining water."
+      },
+      {
+        "title": "Finish and serve",
+        "text": "Stir in {13}, then taste and add more salt and pepper. Ladle into bowls and top with a drizzle of olive oil and {14}."
+      }
+    ],
+    "notes": "Use red lentils only: green or brown lentils won't break down into the creamy texture.\nFor a thicker soup, use less water; you can also swap the water for more broth.\nSkip the cayenne for no heat (good for kids). A couple tablespoons of tomato paste adds color and tang. Don't skip the lemon.\nThe soup thickens as it sits; add a splash of water when reheating. Keeps 4 days in the fridge or 3 months frozen."
   }
 ]
