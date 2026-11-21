@@ -269,5 +269,12 @@
     "recipe": "red-lentil-soup",
     "type": "added",
     "summary": "Added Red Lentil Soup, from Love and Lemons (loveandlemons.com). Black pepper set to ¼ tsp (source says \"to taste\"); cayenne marked optional per the source's note."
+  },
+  {
+    "date": "2026-11-20",
+    "recipe": "red-lentil-soup",
+    "type": "changed",
+    "summary": "Step 2 title \"Add spices\" → \"Add potato and spices\".",
+    "why": "John noticed the potato is added in that step but the title only mentioned spices."
   }
 ]

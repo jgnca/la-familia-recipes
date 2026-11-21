@@ -7,6 +7,8 @@ _Generated from `changelog.json` by `scripts/build_changelog.py`; edit the JSON,
 
 ## November 20, 2026
 
+- **Changed · Red Lentil Soup:** Step 2 title "Add spices" → "Add potato and spices".
+  - *Why:* John noticed the potato is added in that step but the title only mentioned spices.
 - **Added · Red Lentil Soup:** Added Red Lentil Soup, from Love and Lemons (loveandlemons.com). Black pepper set to ¼ tsp (source says "to taste"); cayenne marked optional per the source's note.
 
 ## November 17, 2026
